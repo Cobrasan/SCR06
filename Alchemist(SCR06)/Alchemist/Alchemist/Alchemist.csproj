@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0804DFC0-5785-4BDE-9A22-E685C7BE7E8A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Alchemist</RootNamespace>
+    <AssemblyName>Alchemist</AssemblyName>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>Resources\mainIcon.ico</ApplicationIcon>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>ja-JP</TargetCulture>
+    <ProductName>Alchemist</ProductName>
+    <PublisherName>Alchemist</PublisherName>
+    <MinimumRequiredVersion>10.1.0.1</MinimumRequiredVersion>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>12.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug1\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release1\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>29064F677665876C5DBB669DF5EDD548332CE5B1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Alchemist_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="SCR06SieldWireImagePanelControl">
+      <HintPath>..\..\..\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\bin\Debug\SCR06SieldWireImagePanelControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonControl.cs" />
+    <Compile Include="CommandUtil.cs" />
+    <Compile Include="CsvFileOut.cs" />
+    <Compile Include="DataController.private.cs" />
+    <Compile Include="DataController.Thread.cs" />
+    <Compile Include="Form\dbEditfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\dbEditfrm.Designer.cs">
+      <DependentUpon>dbEditfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fdatafrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fdatafrm.Designer.cs">
+      <DependentUpon>fdatafrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\wireselectfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\wireselectfrm.Designer.cs">
+      <DependentUpon>wireselectfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\bankOperationfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\bankOperationfrm.Designer.cs">
+      <DependentUpon>bankOperationfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\connectOperationfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\connectOperationfrm.Designer.cs">
+      <DependentUpon>connectOperationfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\counterfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\counterfrm.Designer.cs">
+      <DependentUpon>counterfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CustomComponents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form\errInfoMsgfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\errInfoMsgfrm.Designer.cs">
+      <DependentUpon>errInfoMsgfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\iocheckfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\iocheckfrm.Designer.cs">
+      <DependentUpon>iocheckfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\machineOperationfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\machineOperationfrm.Designer.cs">
+      <DependentUpon>machineOperationfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\mainfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\mainfrm.Designer.cs">
+      <DependentUpon>mainfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\mainfrm.function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\passwordCollationfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\passwordCollationfrm.Designer.cs">
+      <DependentUpon>passwordCollationfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\setupOperationfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\setupOperationfrm.Designer.cs">
+      <DependentUpon>setupOperationfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\syncroprogressfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\syncroprogressfrm.Designer.cs">
+      <DependentUpon>syncroprogressfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\systemConfigurationfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\systemConfigurationfrm.Designer.cs">
+      <DependentUpon>systemConfigurationfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\workDetailItemfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\workDetailItemfrm.Designer.cs">
+      <DependentUpon>workDetailItemfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\workDetailMotionfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\workDetailMotionfrm.Designer.cs">
+      <DependentUpon>workDetailMotionfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\workDetailSpeedfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\workDetailSpeedfrm.Designer.cs">
+      <DependentUpon>workDetailSpeedfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\operatorfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\operatorfrm.Designer.cs">
+      <DependentUpon>operatorfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\CorrectDataMsg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CorrectDataMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DataController.cs" />
+    <Compile Include="MachineConnector.cs" />
+    <Compile Include="MachineConnector.Thread.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\TimingDataMsg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimingDataMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\TimingDataMsg.en-US.Designer.cs">
+      <DependentUpon>TimingDataMsg.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\TimingDataMsg.zh-CN.Designer.cs">
+      <DependentUpon>TimingDataMsg.zh-CN.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\CorrectDataMsg.zh-CN.Designer.cs">
+      <DependentUpon>CorrectDataMsg.zh-CN.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\CorrectDataMsg.en-US.Designer.cs">
+      <DependentUpon>CorrectDataMsg.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\WorkDataMsg.zh-CN.Designer.cs">
+      <DependentUpon>WorkDataMsg.zh-CN.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\WorkDataMsg.en-US.Designer.cs">
+      <DependentUpon>WorkDataMsg.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\ScreenMsg.zh-CN.Designer.cs">
+      <DependentUpon>ScreenMsg.zh-CN.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\ScreenMsg.en-US.Designer.cs">
+      <DependentUpon>ScreenMsg.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\ScreenMsg.Designer.cs">
+      <DependentUpon>ScreenMsg.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\CorrectDataMsg.ja-JP.Designer.cs">
+      <DependentUpon>CorrectDataMsg.ja-JP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\ScreenMsg.ja-JP.Designer.cs">
+      <DependentUpon>ScreenMsg.ja-JP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\TimingDataMsg.ja-JP.Designer.cs">
+      <DependentUpon>TimingDataMsg.ja-JP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\WorkDataMsg.ja-JP.Designer.cs">
+      <DependentUpon>WorkDataMsg.ja-JP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Form\qualityRecordfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\qualityRecordfrm.Designer.cs">
+      <DependentUpon>qualityRecordfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR06DBController.cs" />
+    <Compile Include="SCR06DBDataClasses.cs">
+      <DependentUpon>SCR06DBDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SCR06DBDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SCR06DBDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SQLServerController.cs" />
+    <Compile Include="Storage\BankDataStorage.cs" />
+    <Compile Include="Storage\CorrectDataStorage.cs" />
+    <Compile Include="Storage\MemoryAllocationData.cs" />
+    <Compile Include="Storage\SystemDataStorage.cs" />
+    <Compile Include="TenkeyControl.cs" />
+    <Compile Include="Form\tenKeyfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\tenKeyfrm.Designer.cs">
+      <DependentUpon>tenKeyfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinAPI.cs" />
+    <Compile Include="Properties\WorkDataMsg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkDataMsg.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\wireConfirmfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\wireConfirmfrm.Designer.cs">
+      <DependentUpon>wireConfirmfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\wireChangeInfofrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\wireChangeInfofrm.Designer.cs">
+      <DependentUpon>wireChangeInfofrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkDataMemory.cs" />
+    <Compile Include="XML\BankXmlAccessor.cs" />
+    <Compile Include="XML\CorrectDataXMLAccessor.cs" />
+    <Compile Include="XML\MemallocXMLAccessor.cs" />
+    <Compile Include="XML\SystemXMLAccessor.cs" />
+    <Compile Include="XML\XMLAccessor.cs" />
+    <EmbeddedResource Include="Form\dbEditfrm.en-US.resx">
+      <DependentUpon>dbEditfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\dbEditfrm.ja-JP.resx">
+      <DependentUpon>dbEditfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\dbEditfrm.resx">
+      <DependentUpon>dbEditfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fdatafrm.en-US.resx">
+      <DependentUpon>fdatafrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fdatafrm.ja-JP.resx">
+      <DependentUpon>fdatafrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fdatafrm.resx">
+      <DependentUpon>fdatafrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\bankOperationfrm.en-US.resx">
+      <DependentUpon>bankOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\bankOperationfrm.ja-JP.resx">
+      <DependentUpon>bankOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\bankOperationfrm.resx">
+      <DependentUpon>bankOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\bankOperationfrm.zh-CN.resx">
+      <DependentUpon>bankOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\connectOperationfrm.en-US.resx">
+      <DependentUpon>connectOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\connectOperationfrm.ja-JP.resx">
+      <DependentUpon>connectOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\connectOperationfrm.resx">
+      <DependentUpon>connectOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\connectOperationfrm.zh-CN.resx">
+      <DependentUpon>connectOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\counterfrm.en-US.resx">
+      <DependentUpon>counterfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\counterfrm.ja-JP.resx">
+      <DependentUpon>counterfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\counterfrm.resx">
+      <DependentUpon>counterfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\counterfrm.zh-CN.resx">
+      <DependentUpon>counterfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\errInfoMsgfrm.en-US.resx">
+      <DependentUpon>errInfoMsgfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\errInfoMsgfrm.ja-JP.resx">
+      <DependentUpon>errInfoMsgfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\errInfoMsgfrm.resx">
+      <DependentUpon>errInfoMsgfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\errInfoMsgfrm.zh-CN.resx">
+      <DependentUpon>errInfoMsgfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\iocheckfrm.en-US.resx">
+      <DependentUpon>iocheckfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\iocheckfrm.ja-JP.resx">
+      <DependentUpon>iocheckfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\iocheckfrm.resx">
+      <DependentUpon>iocheckfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\iocheckfrm.zh-CN.resx">
+      <DependentUpon>iocheckfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\machineOperationfrm.en-US.resx">
+      <DependentUpon>machineOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\machineOperationfrm.ja-JP.resx">
+      <DependentUpon>machineOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\machineOperationfrm.resx">
+      <DependentUpon>machineOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\machineOperationfrm.zh-CN.resx">
+      <DependentUpon>machineOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\mainfrm.en-US.resx">
+      <DependentUpon>mainfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\mainfrm.ja-JP.resx">
+      <DependentUpon>mainfrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\mainfrm.resx">
+      <DependentUpon>mainfrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\mainfrm.zh-CN.resx">
+      <DependentUpon>mainfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\operatorfrm.en-US.resx">
+      <DependentUpon>operatorfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\operatorfrm.ja-JP.resx">
+      <DependentUpon>operatorfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\operatorfrm.resx">
+      <DependentUpon>operatorfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\passwordCollationfrm.en-US.resx">
+      <DependentUpon>passwordCollationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\passwordCollationfrm.ja-JP.resx">
+      <DependentUpon>passwordCollationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\passwordCollationfrm.resx">
+      <DependentUpon>passwordCollationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\passwordCollationfrm.zh-CN.resx">
+      <DependentUpon>passwordCollationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\qualityRecordfrm.en-US.resx">
+      <DependentUpon>qualityRecordfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\qualityRecordfrm.ja-JP.resx">
+      <DependentUpon>qualityRecordfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\qualityRecordfrm.resx">
+      <DependentUpon>qualityRecordfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\setupOperationfrm.en-US.resx">
+      <DependentUpon>setupOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\setupOperationfrm.ja-JP.resx">
+      <DependentUpon>setupOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\setupOperationfrm.resx">
+      <DependentUpon>setupOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\setupOperationfrm.zh-CN.resx">
+      <DependentUpon>setupOperationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\syncroprogressfrm.en-US.resx">
+      <DependentUpon>syncroprogressfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\syncroprogressfrm.ja-JP.resx">
+      <DependentUpon>syncroprogressfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\syncroprogressfrm.resx">
+      <DependentUpon>syncroprogressfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\syncroprogressfrm.zh-CN.resx">
+      <DependentUpon>syncroprogressfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\systemConfigurationfrm.en-US.resx">
+      <DependentUpon>systemConfigurationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\systemConfigurationfrm.ja-JP.resx">
+      <DependentUpon>systemConfigurationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\systemConfigurationfrm.resx">
+      <DependentUpon>systemConfigurationfrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\systemConfigurationfrm.zh-CN.resx">
+      <DependentUpon>systemConfigurationfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireChangeInfofrm.en-US.resx">
+      <DependentUpon>wireChangeInfofrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireConfirmfrm.en-US.resx">
+      <DependentUpon>wireConfirmfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireselectfrm.en-US.resx">
+      <DependentUpon>wireselectfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireselectfrm.ja-JP.resx">
+      <DependentUpon>wireselectfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireselectfrm.resx">
+      <DependentUpon>wireselectfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailItemfrm.en-US.resx">
+      <DependentUpon>workDetailItemfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailItemfrm.ja-JP.resx">
+      <DependentUpon>workDetailItemfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailItemfrm.resx">
+      <DependentUpon>workDetailItemfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailItemfrm.zh-CN.resx">
+      <DependentUpon>workDetailItemfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailMotionfrm.en-US.resx">
+      <DependentUpon>workDetailMotionfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailMotionfrm.ja-JP.resx">
+      <DependentUpon>workDetailMotionfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailMotionfrm.resx">
+      <DependentUpon>workDetailMotionfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailMotionfrm.zh-CN.resx">
+      <DependentUpon>workDetailMotionfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailSpeedfrm.en-US.resx">
+      <DependentUpon>workDetailSpeedfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailSpeedfrm.ja-JP.resx">
+      <DependentUpon>workDetailSpeedfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailSpeedfrm.resx">
+      <DependentUpon>workDetailSpeedfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workDetailSpeedfrm.zh-CN.resx">
+      <DependentUpon>workDetailSpeedfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\CorrectDataMsg.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CorrectDataMsg.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\TimingDataMsg.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimingDataMsg.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\TimingDataMsg.zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimingDataMsg.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\CorrectDataMsg.zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CorrectDataMsg.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\CorrectDataMsg.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CorrectDataMsg.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\WorkDataMsg.zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WorkDataMsg.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\WorkDataMsg.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WorkDataMsg.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\ScreenMsg.zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScreenMsg.zh-CN.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\ScreenMsg.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScreenMsg.en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\WorkDataMsg.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WorkDataMsg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\TimingDataMsg.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimingDataMsg.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\ScreenMsg.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScreenMsg.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\CorrectDataMsg.ja-JP.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CorrectDataMsg.ja-JP.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\ScreenMsg.ja-JP.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScreenMsg.ja-JP.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\TimingDataMsg.ja-JP.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimingDataMsg.ja-JP.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\WorkDataMsg.ja-JP.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WorkDataMsg.ja-JP.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\tenKeyfrm.resx">
+      <DependentUpon>tenKeyfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireConfirmfrm.ja-JP.resx">
+      <DependentUpon>wireConfirmfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireConfirmfrm.resx">
+      <DependentUpon>wireConfirmfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireChangeInfofrm.ja-JP.resx">
+      <DependentUpon>wireChangeInfofrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\wireChangeInfofrm.resx">
+      <DependentUpon>wireChangeInfofrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="SCR06DBDataClasses.dbml.layout">
+      <DependentUpon>SCR06DBDataClasses.dbml</DependentUpon>
+    </None>
+    <None Include="Alchemist_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SystemConstants.cs" />
+    <Compile Include="Utility.cs" />
+    <None Include="SCR06DBDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SCR06DBDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blade.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blade_ajust.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bottompanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CFM.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClosedTerm.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClosePanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comentpanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controlpanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countdown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\counterpanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CountOffBtnDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CountOffBtnUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countup.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrimpBlade.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrimpLower.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrimpUpper.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CycleModeBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownLoadBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emblem.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entwire.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrClose.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorBase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorImage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorPanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorPanel2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig0_0.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig1_0.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig1_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig1_3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig1_4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig1_5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig1_7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig1_9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig2_0.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig2_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig2_3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig2_4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig2_5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig2_7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fig2_9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FigBase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormIcon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HQCDiplay.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InchingBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IncingSw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iomonitorpanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jam.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JogModeBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Led.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedBlueOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedBlueOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedGreenOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedGreenOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedRed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedRedOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedRedOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\machinestationimage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicroMeter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiniLedBlueOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiniLedBlueOffDark.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiniLedBlueOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiniLedGreenOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiniLedGreenOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiniLedRedOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiniLedRedOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModeBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextScadule.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ONLINE.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\origin.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\origin2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\origin3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\origin3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panelbase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIC0013.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIC0017.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIC0018.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Promaster.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResetBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RialSeal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RialSeal1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RialSeal2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensorpanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIDEPANEL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlowMode1Btn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StaffRoll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StandardBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strip1miss.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StripA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\systempanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\systempanel2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\systempanel3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TenKeyDisp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TenKeyEnter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TenKeyMain.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TermDataSetPanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TerminalFlag.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Test.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TInchingBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titleSH2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOPBAR.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tweakpanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockcrimpA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockcrimpA2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockcrimpB.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockcrimpB2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockhalfA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockhalfA2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockhalfB.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockhalfB2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlocksealA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlocksealA3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlocksealB.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlocksealB3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockstripA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitlockstripB.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitpanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitSeal1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unitSeal2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpLoadBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VerSionPanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirtualSeal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirtualSeal1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirtualSeal2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WireGraph.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wireprocess.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WireSizeG.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkImage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkImage_050411.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkImage_050422.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkImage_050422_2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkImage_old.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\workparambase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worlparamcover.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aplibtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AutoExitBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\automodebtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\automodebtn2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StripAOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StripBON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrimpAON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crimpBON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HalfBON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HalfBOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HalfAOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HalfAON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StriipAON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StripBOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrimpAOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrimpBOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SealAOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SealAON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SealBOFF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SealBON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JAMLogo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JAMLogo2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 および x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="File\memalloc.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="File\system.xml" />
+    <None Include="Resources\mainIcon.ico" />
+    <None Include="Resources\pictureBox1.Image.bmp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="radioButtonMain_PC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="radioButtonMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="radioCHINESE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 20</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>System setting</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnMemoryMonitor.Text" xml:space="preserve">
+    <value>Memory Monitor</value>
+  </data>
+  <data name="btnSetting.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="btnSTRIPMISS1.Text" xml:space="preserve">
+    <value>Strip miss</value>
+  </data>
+  <data name="checkBoxTACHPANEL.Text" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="comboBORATE.Items" xml:space="preserve">
+    <value>4800bps</value>
+  </data>
+  <data name="comboBORATE.Items1" xml:space="preserve">
+    <value>9600bps</value>
+  </data>
+  <data name="comboBORATE.Items2" xml:space="preserve">
+    <value>14400bps</value>
+  </data>
+  <data name="comboBORATE.Items3" xml:space="preserve">
+    <value>19200bps</value>
+  </data>
+  <data name="comboBORATE.Items4" xml:space="preserve">
+    <value>38400bps</value>
+  </data>
+  <data name="comboBORATE.Items5" xml:space="preserve">
+    <value>57600bps</value>
+  </data>
+  <data name="comboBORATE.Items6" xml:space="preserve">
+    <value>115200bps</value>
+  </data>
+  <data name="comboCOMPORT.Items" xml:space="preserve">
+    <value>COM1</value>
+  </data>
+  <data name="comboCOMPORT.Items1" xml:space="preserve">
+    <value>COM2</value>
+  </data>
+  <data name="comboCOMPORT.Items2" xml:space="preserve">
+    <value>COM3</value>
+  </data>
+  <data name="comboCOMPORT.Items3" xml:space="preserve">
+    <value>COM11</value>
+  </data>
+  <data name="comboDATABIT.Items" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboDATABIT.Items1" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboflow_control.Items" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="comboflow_control.Items1" xml:space="preserve">
+    <value>hard</value>
+  </data>
+  <data name="comboflow_control.Items2" xml:space="preserve">
+    <value>xon/xoff</value>
+  </data>
+  <data name="comboPARITY.Items" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="comboPARITY.Items1" xml:space="preserve">
+    <value>odd</value>
+  </data>
+  <data name="comboPARITY.Items2" xml:space="preserve">
+    <value>even</value>
+  </data>
+  <data name="comboSTOPBIT.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboSTOPBIT.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CorColumn11.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="CorColumn12.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="CorColumn13.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="CorColumn14.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CorColumn15.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CorColumn21.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="CorColumn22.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="CorColumn23.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="CorColumn24.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CorColumn25.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CorColumn31.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="CorColumn32.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="CorColumn33.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="CorColumn34.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CorColumn35.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CorColumn41.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="CorColumn42.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="CorColumn43.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="CorColumn44.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CorColumn45.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="correctiontabPage.Text" xml:space="preserve">
+    <value>Compensation value</value>
+  </data>
+  <data name="groupBoxATMachine_operation.Text" xml:space="preserve">
+    <value>Automatic operation</value>
+  </data>
+  <data name="groupBoxCOM.Text" xml:space="preserve">
+    <value>Communication Setting</value>
+  </data>
+  <data name="groupBoxLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="groupBoxPASSWORD.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="groupBoxSQL_SERVER.Text" xml:space="preserve">
+    <value>SQL Server setting</value>
+  </data>
+  <data name="groupBoxTACHPANEL.Text" xml:space="preserve">
+    <value>Touch panel setting</value>
+  </data>
+  <data name="lblBORATE.Text" xml:space="preserve">
+    <value>Communication Speed</value>
+  </data>
+  <data name="lblCHECK.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="lblCOMPORT.Text" xml:space="preserve">
+    <value>COM port</value>
+  </data>
+  <data name="lblDATABASE_NAME.Text" xml:space="preserve">
+    <value>Date base name</value>
+  </data>
+  <data name="lblDATABIT.Text" xml:space="preserve">
+    <value>Date bit</value>
+  </data>
+  <data name="lblFLOW_CONTROL.Text" xml:space="preserve">
+    <value>Flow control</value>
+  </data>
+  <data name="lblPARITY.Text" xml:space="preserve">
+    <value>Parity</value>
+  </data>
+  <data name="lblSERVER_NAME.Text" xml:space="preserve">
+    <value>SQL Server name</value>
+  </data>
+  <data name="lblSTOPBIT.Text" xml:space="preserve">
+    <value>Stop bit</value>
+  </data>
+  <data name="lblUSER_ID.Text" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="lblUSER_PASSWORD.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="radioButtonCHINESE.Text" xml:space="preserve">
+    <value>Chinese (Simplified Chinese)</value>
+  </data>
+  <data name="radioButtonENGLISH.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="radioButtonJAPANESE.Text" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="radioButtonMain.Text" xml:space="preserve">
+    <value>Main unit</value>
+  </data>
+  <data name="radioButtonMain_PC.Text" xml:space="preserve">
+    <value>Main unit PC</value>
+  </data>
+  <data name="sensortabPage.Text" xml:space="preserve">
+    <value>Detect lock</value>
+  </data>
+  <data name="systemOperationtabPage.Text" xml:space="preserve">
+    <value>System operation</value>
+  </data>
+  <data name="systemtabPage.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="tabPage11.Text" xml:space="preserve">
+    <value>Base machine</value>
+  </data>
+  <data name="tabPage12.Text" xml:space="preserve">
+    <value>Loose</value>
+  </data>
+  <data name="tabPage13.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="tabPage14.Text" xml:space="preserve">
+    <value>Pull</value>
+  </data>
+  <data name="tabPage21.Text" xml:space="preserve">
+    <value>Measure/Cut</value>
+  </data>
+  <data name="tabPage22.Text" xml:space="preserve">
+    <value>Pull</value>
+  </data>
+  <data name="tabPage23.Text" xml:space="preserve">
+    <value>Strip miss</value>
+  </data>
+  <data name="tabPage24.Text" xml:space="preserve">
+    <value>Loose</value>
+  </data>
+  <data name="tabPage25.Text" xml:space="preserve">
+    <value>Tip align</value>
+  </data>
+  <data name="tabPage26.Text" xml:space="preserve">
+    <value>Eject</value>
+  </data>
+  <data name="TimColumn11.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="TimColumn12.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="TimColumn13.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="TimColumn21.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="TimColumn22.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="TimColumn23.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="TimColumn31.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="TimColumn32.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="TimColumn33.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="TimColumn41.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="TimColumn42.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="TimColumn43.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="TimColumn51.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="TimColumn52.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="TimColumn53.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="TimColumn61.HeaderText" xml:space="preserve">
+    <value>WorkID</value>
+  </data>
+  <data name="TimColumn62.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="TimColumn63.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="timingtabPage.Text" xml:space="preserve">
+    <value>Timing</value>
+  </data>
+  <data name="btnEditDB.Text" xml:space="preserve">
+    <value>Edit master table</value>
+  </data>
+</root>

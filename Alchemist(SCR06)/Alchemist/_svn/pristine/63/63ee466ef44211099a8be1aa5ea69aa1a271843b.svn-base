@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CORR_0101" xml:space="preserve">
+    <value>The count of cycle without terminal</value>
+  </data>
+  <data name="CORR_0102" xml:space="preserve">
+    <value>The belt conveyer operation length</value>
+  </data>
+  <data name="CORR_0103" xml:space="preserve">
+    <value>The belt conveyer operation waiting time</value>
+  </data>
+  <data name="CORR_0104" xml:space="preserve">
+    <value>The terminal feed time 1</value>
+  </data>
+  <data name="CORR_0105" xml:space="preserve">
+    <value>The terminal feed time 2</value>
+  </data>
+  <data name="CORR_0106" xml:space="preserve">
+    <value>Warmth driving time</value>
+  </data>
+  <data name="CORR_0107" xml:space="preserve">
+    <value>The per times to run currier cutter1</value>
+  </data>
+  <data name="CORR_0108" xml:space="preserve">
+    <value>The per times to run currier cutter2</value>
+  </data>
+  <data name="CORR_0109" xml:space="preserve">
+    <value>Crimp Detection1   0:Fiber/1:CFM</value>
+  </data>
+  <data name="CORR_010A" xml:space="preserve">
+    <value>Crimp Detection2   0:Fiber/1:CFM</value>
+  </data>
+  <data name="CORR_010B" xml:space="preserve">
+    <value>Crimp1 after judgement  0:Disable/1:Enable</value>
+  </data>
+  <data name="CORR_010C" xml:space="preserve">
+    <value>Crimp2 after judgement  0:Disable/1:Enable</value>
+  </data>
+  <data name="CORR_010D" xml:space="preserve">
+    <value>Detection Level of Strip 1</value>
+  </data>
+  <data name="CORR_010E" xml:space="preserve">
+    <value>Teach Count of Strip 1</value>
+  </data>
+  <data name="CORR_010F" xml:space="preserve">
+    <value>Detection Level of Strip 2</value>
+  </data>
+  <data name="CORR_0110" xml:space="preserve">
+    <value>Teach Count of Strip 2</value>
+  </data>
+  <data name="CORR_0111" xml:space="preserve">
+    <value>Auto Teaching Feed  0:Enable/1:Disable</value>
+  </data>
+  <data name="CORR_0112" xml:space="preserve">
+    <value>Teaching Wire      0:Defective/1:Product</value>
+  </data>
+  <data name="CORR_0113" xml:space="preserve">
+    <value>Auto Strip Teaching  0:Enabke/1:Disable</value>
+  </data>
+  <data name="CORR_0114" xml:space="preserve">
+    <value>Feed Type     0:Close/1:Open</value>
+  </data>
+  <data name="CORR_0115" xml:space="preserve">
+    <value>Strip Detect Type    0:Contact/1:LAMS</value>
+  </data>
+  <data name="CORR_0116" xml:space="preserve">
+    <value>ACH Presence     0:None/1:Exists</value>
+  </data>
+  <data name="CORR_0117" xml:space="preserve">
+    <value>LAMS Function Type     0:No Seal/1:Seal</value>
+  </data>
+  <data name="CORR_0118" xml:space="preserve">
+    <value>The reset of total counter     0:Enable/1:Disable</value>
+  </data>
+  <data name="CORR_0119" xml:space="preserve">
+    <value>The reset of crimp counter    0:Enabke/1:Disable</value>
+  </data>
+  <data name="CORR_011A" xml:space="preserve">
+    <value>The counter type     0:Electric/1:Automotive</value>
+  </data>
+  <data name="CORR_0201" xml:space="preserve">
+    <value>The wire length of Defective</value>
+  </data>
+  <data name="CORR_0202" xml:space="preserve">
+    <value>The wire length of Test mode</value>
+  </data>
+  <data name="CORR_0203" xml:space="preserve">
+    <value>The wire length of Sample mode</value>
+  </data>
+  <data name="CORR_0204" xml:space="preserve">
+    <value>The pathline length</value>
+  </data>
+  <data name="CORR_0205" xml:space="preserve">
+    <value>The feeding length of wire joint</value>
+  </data>
+  <data name="CORR_0206" xml:space="preserve">
+    <value>The corrective value of wire length</value>
+  </data>
+  <data name="CORR_0207" xml:space="preserve">
+    <value>The air blow operation length</value>
+  </data>
+  <data name="CORR_0208" xml:space="preserve">
+    <value>The eject length of misstrip</value>
+  </data>
+  <data name="CORR_0209" xml:space="preserve">
+    <value>The feeding length of test feed</value>
+  </data>
+  <data name="CORR_020A" xml:space="preserve">
+    <value>The feeding length of back feed</value>
+  </data>
+  <data name="CORR_020B" xml:space="preserve">
+    <value>The eject length of wire overload</value>
+  </data>
+  <data name="CORR_020C" xml:space="preserve">
+    <value>The corrective length of strip feed</value>
+  </data>
+  <data name="CORR_0301" xml:space="preserve">
+    <value>Swing: The origin position</value>
+  </data>
+  <data name="CORR_0302" xml:space="preserve">
+    <value>Swing: The strip position</value>
+  </data>
+  <data name="CORR_0303" xml:space="preserve">
+    <value>Swing: The strip detect position</value>
+  </data>
+  <data name="CORR_0304" xml:space="preserve">
+    <value>Swing: The crimp position</value>
+  </data>
+  <data name="CORR_0305" xml:space="preserve">
+    <value>Swing: The crimp escape position</value>
+  </data>
+  <data name="CORR_0306" xml:space="preserve">
+    <value>Swing: The crimp detect position</value>
+  </data>
+  <data name="CORR_0307" xml:space="preserve">
+    <value>Swing: The motor speed</value>
+  </data>
+  <data name="CORR_0308" xml:space="preserve">
+    <value>Swing: The motor acceleration</value>
+  </data>
+  <data name="CORR_0401" xml:space="preserve">
+    <value>Transfer: The origin position</value>
+  </data>
+  <data name="CORR_0402" xml:space="preserve">
+    <value>Transfer: The strip position</value>
+  </data>
+  <data name="CORR_0403" xml:space="preserve">
+    <value>Transfer: The strip detect position</value>
+  </data>
+  <data name="CORR_0404" xml:space="preserve">
+    <value>Transfer: The crimp position</value>
+  </data>
+  <data name="CORR_0405" xml:space="preserve">
+    <value>Transfer: The crimp escape position</value>
+  </data>
+  <data name="CORR_0406" xml:space="preserve">
+    <value>Transfer: The motor speed</value>
+  </data>
+  <data name="CORR_0407" xml:space="preserve">
+    <value>Transfer: The motor acceleration</value>
+  </data>
+  <data name="CORR_0408" xml:space="preserve">
+    <value>Transfer: The threshold length to swith the speed</value>
+  </data>
+  <data name="CORR_0409" xml:space="preserve">
+    <value>Transfer: The motor speed (switched speed)</value>
+  </data>
+  <data name="CORR_040A" xml:space="preserve">
+    <value>Transfer: The motor acceleration (switched speed)</value>
+  </data>
+  <data name="CORR_0501" xml:space="preserve">
+    <value>No1 Slider: The origin position</value>
+  </data>
+  <data name="CORR_0502" xml:space="preserve">
+    <value>No1 Slider: The crimp position offset</value>
+  </data>
+  <data name="CORR_0503" xml:space="preserve">
+    <value>No1 Slider: The motor speed</value>
+  </data>
+  <data name="CORR_0504" xml:space="preserve">
+    <value>No1 Slider: The motor acceleration</value>
+  </data>
+  <data name="CORR_0605" xml:space="preserve">
+    <value>No2 Slider: The origin position</value>
+  </data>
+  <data name="CORR_0606" xml:space="preserve">
+    <value>No2 Slider: The crimp position offset</value>
+  </data>
+  <data name="CORR_0607" xml:space="preserve">
+    <value>No2 Slider: The re-clamp position</value>
+  </data>
+  <data name="CORR_0608" xml:space="preserve">
+    <value>No2 Slider: The edge re-clamp position</value>
+  </data>
+  <data name="CORR_0609" xml:space="preserve">
+    <value>No2 Slider: The motor speed</value>
+  </data>
+  <data name="CORR_060A" xml:space="preserve">
+    <value>No2 Slider: The motor acceleration</value>
+  </data>
+  <data name="CORR_0701" xml:space="preserve">
+    <value>The offset of strip length 1</value>
+  </data>
+  <data name="CORR_0702" xml:space="preserve">
+    <value>The offset of strip detect 1</value>
+  </data>
+  <data name="CORR_0703" xml:space="preserve">
+    <value>The offset of strip length 2</value>
+  </data>
+  <data name="CORR_0704" xml:space="preserve">
+    <value>The offset of strip detect 2</value>
+  </data>
+  <data name="CORR_0705" xml:space="preserve">
+    <value>The origin position of cutter</value>
+  </data>
+  <data name="CORR_0706" xml:space="preserve">
+    <value>The cut position</value>
+  </data>
+  <data name="CORR_0707" xml:space="preserve">
+    <value>The origin position of strip</value>
+  </data>
+  <data name="CORR_0708" xml:space="preserve">
+    <value>The wire guide position</value>
+  </data>
+  <data name="CORR_0709" xml:space="preserve">
+    <value>The motor speed of cutter/wire guide</value>
+  </data>
+  <data name="CORR_070A" xml:space="preserve">
+    <value>The motor acceleration of cutter/wire guide</value>
+  </data>
+  <data name="CORR_070B" xml:space="preserve">
+    <value>The motor speed of strip</value>
+  </data>
+  <data name="CORR_070C" xml:space="preserve">
+    <value>The motor acceleration of strip</value>
+  </data>
+  <data name="CORR_0801" xml:space="preserve">
+    <value>Crimper1: The origin sensor correction</value>
+  </data>
+  <data name="CORR_0802" xml:space="preserve">
+    <value>Crimper2: The origin sensor correction</value>
+  </data>
+  <data name="CORR_0803" xml:space="preserve">
+    <value>Crimper1: The motor speed</value>
+  </data>
+  <data name="CORR_0804" xml:space="preserve">
+    <value>Crimper1: The motor acceleration</value>
+  </data>
+  <data name="CORR_0805" xml:space="preserve">
+    <value>Crimper2: The motor speed</value>
+  </data>
+  <data name="CORR_0806" xml:space="preserve">
+    <value>Crimper2: The motor acceleration</value>
+  </data>
+  <data name="CORR_0901" xml:space="preserve">
+    <value>Swing: Seal insert position</value>
+  </data>
+  <data name="CORR_0902" xml:space="preserve">
+    <value>Swing: Seal insert detect position</value>
+  </data>
+  <data name="CORR_0903" xml:space="preserve">
+    <value>No1 Slider: Seal insert start position</value>
+  </data>
+  <data name="CORR_0904" xml:space="preserve">
+    <value>No1 Slider: Seal insert offset</value>
+  </data>
+  <data name="CORR_0905" xml:space="preserve">
+    <value>Transfer: Seal insert position</value>
+  </data>
+  <data name="CORR_0906" xml:space="preserve">
+    <value>Transfer: Seal insert detect position</value>
+  </data>
+  <data name="CORR_0907" xml:space="preserve">
+    <value>No2 Slider: Seal insert start position</value>
+  </data>
+  <data name="CORR_0908" xml:space="preserve">
+    <value>No2 Slider: Seal insert detect position</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\bin\Debug\SCR06SieldWireImagePanelControl.dll
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\bin\Debug\SCR06SieldWireImagePanelControl.pdb
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\obj\Debug\ResolveAssemblyReference.cache
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\obj\Debug\SCR06SieldWireImagePanelControl.SieldWireImagePanel.resources
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\obj\Debug\GenerateResource.read.1.tlog
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\obj\Debug\GenerateResource.write.1.tlog
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\obj\Debug\SCR06SieldWireImagePanelControl.dll
+c:\users\097014\documents\visual studio 2010\Projects\SCR06SieldWireImagePanelControl\SCR06SieldWireImagePanelControl\obj\Debug\SCR06SieldWireImagePanelControl.pdb

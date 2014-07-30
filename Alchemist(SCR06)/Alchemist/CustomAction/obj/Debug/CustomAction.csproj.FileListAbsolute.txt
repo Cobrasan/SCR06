@@ -1,0 +1,10 @@
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(JN03S-A3)\Alchemist\CustomAction\bin\Debug\CustomAction.dll
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(JN03S-A3)\Alchemist\CustomAction\bin\Debug\CustomAction.pdb
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(JN03S-A3)\Alchemist\CustomAction\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(JN03S-A3)\Alchemist\CustomAction\obj\Debug\CustomAction.dll
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(JN03S-A3)\Alchemist\CustomAction\obj\Debug\CustomAction.pdb
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\bin\Debug\CustomAction.dll
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\bin\Debug\CustomAction.pdb
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Debug\CustomAction.dll
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Debug\CustomAction.pdb

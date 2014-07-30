@@ -1,0 +1,383 @@
+﻿namespace Alchemist
+{
+    partial class fdatafrm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fdatafrm));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lblAB_CHANGE = new System.Windows.Forms.Label();
+            this.lblB_KAWAMUKINAGASA = new System.Windows.Forms.Label();
+            this.lblA_KAWAMUKINAGASA = new System.Windows.Forms.Label();
+            this.lblSETSUDANCHO = new System.Windows.Forms.Label();
+            this.lblB_KAIROKIGOU = new System.Windows.Forms.Label();
+            this.lblA_KAIROKIGOU = new System.Windows.Forms.Label();
+            this.lblDENSEN_CODE = new System.Windows.Forms.Label();
+            this.lblIRO = new System.Windows.Forms.Label();
+            this.lblSIZE = new System.Windows.Forms.Label();
+            this.lblSENSYU = new System.Windows.Forms.Label();
+            this.lblTABADORISU = new System.Windows.Forms.Label();
+            this.lblSETSU = new System.Windows.Forms.Label();
+            this.lblDEKIDAKA1 = new System.Windows.Forms.Label();
+            this.lblRENBAN = new System.Windows.Forms.Label();
+            this.lblSEIBAN = new System.Windows.Forms.Label();
+            this.lblHINBAN = new System.Windows.Forms.Label();
+            this.txtBARCODE = new Alchemist.CustomTextBox();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.txtBARCODE);
+            this.panel1.Controls.Add(this.label17);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.PaleGreen;
+            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.Name = "label17";
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label32);
+            this.panel2.Controls.Add(this.label31);
+            this.panel2.Controls.Add(this.label30);
+            this.panel2.Controls.Add(this.label29);
+            this.panel2.Controls.Add(this.label28);
+            this.panel2.Controls.Add(this.label27);
+            this.panel2.Controls.Add(this.label26);
+            this.panel2.Controls.Add(this.label25);
+            this.panel2.Controls.Add(this.label24);
+            this.panel2.Controls.Add(this.label23);
+            this.panel2.Controls.Add(this.label22);
+            this.panel2.Controls.Add(this.label21);
+            this.panel2.Controls.Add(this.label20);
+            this.panel2.Controls.Add(this.label19);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.lblAB_CHANGE);
+            this.panel2.Controls.Add(this.lblB_KAWAMUKINAGASA);
+            this.panel2.Controls.Add(this.lblA_KAWAMUKINAGASA);
+            this.panel2.Controls.Add(this.lblSETSUDANCHO);
+            this.panel2.Controls.Add(this.lblB_KAIROKIGOU);
+            this.panel2.Controls.Add(this.lblA_KAIROKIGOU);
+            this.panel2.Controls.Add(this.lblDENSEN_CODE);
+            this.panel2.Controls.Add(this.lblIRO);
+            this.panel2.Controls.Add(this.lblSIZE);
+            this.panel2.Controls.Add(this.lblSENSYU);
+            this.panel2.Controls.Add(this.lblTABADORISU);
+            this.panel2.Controls.Add(this.lblSETSU);
+            this.panel2.Controls.Add(this.lblDEKIDAKA1);
+            this.panel2.Controls.Add(this.lblRENBAN);
+            this.panel2.Controls.Add(this.lblSEIBAN);
+            this.panel2.Controls.Add(this.lblHINBAN);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // label32
+            // 
+            resources.ApplyResources(this.label32, "label32");
+            this.label32.Name = "label32";
+            // 
+            // label31
+            // 
+            resources.ApplyResources(this.label31, "label31");
+            this.label31.Name = "label31";
+            // 
+            // label30
+            // 
+            resources.ApplyResources(this.label30, "label30");
+            this.label30.Name = "label30";
+            // 
+            // label29
+            // 
+            resources.ApplyResources(this.label29, "label29");
+            this.label29.Name = "label29";
+            // 
+            // label28
+            // 
+            resources.ApplyResources(this.label28, "label28");
+            this.label28.Name = "label28";
+            // 
+            // label27
+            // 
+            resources.ApplyResources(this.label27, "label27");
+            this.label27.Name = "label27";
+            // 
+            // label26
+            // 
+            resources.ApplyResources(this.label26, "label26");
+            this.label26.Name = "label26";
+            // 
+            // label25
+            // 
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.Name = "label25";
+            // 
+            // label24
+            // 
+            resources.ApplyResources(this.label24, "label24");
+            this.label24.Name = "label24";
+            // 
+            // label23
+            // 
+            resources.ApplyResources(this.label23, "label23");
+            this.label23.Name = "label23";
+            // 
+            // label22
+            // 
+            resources.ApplyResources(this.label22, "label22");
+            this.label22.Name = "label22";
+            // 
+            // label21
+            // 
+            resources.ApplyResources(this.label21, "label21");
+            this.label21.Name = "label21";
+            // 
+            // label20
+            // 
+            resources.ApplyResources(this.label20, "label20");
+            this.label20.Name = "label20";
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.Name = "label19";
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.Name = "label18";
+            // 
+            // lblAB_CHANGE
+            // 
+            this.lblAB_CHANGE.BackColor = System.Drawing.Color.Yellow;
+            this.lblAB_CHANGE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblAB_CHANGE, "lblAB_CHANGE");
+            this.lblAB_CHANGE.Name = "lblAB_CHANGE";
+            // 
+            // lblB_KAWAMUKINAGASA
+            // 
+            this.lblB_KAWAMUKINAGASA.BackColor = System.Drawing.Color.White;
+            this.lblB_KAWAMUKINAGASA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblB_KAWAMUKINAGASA, "lblB_KAWAMUKINAGASA");
+            this.lblB_KAWAMUKINAGASA.Name = "lblB_KAWAMUKINAGASA";
+            // 
+            // lblA_KAWAMUKINAGASA
+            // 
+            this.lblA_KAWAMUKINAGASA.BackColor = System.Drawing.Color.White;
+            this.lblA_KAWAMUKINAGASA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblA_KAWAMUKINAGASA, "lblA_KAWAMUKINAGASA");
+            this.lblA_KAWAMUKINAGASA.Name = "lblA_KAWAMUKINAGASA";
+            // 
+            // lblSETSUDANCHO
+            // 
+            this.lblSETSUDANCHO.BackColor = System.Drawing.Color.White;
+            this.lblSETSUDANCHO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSETSUDANCHO, "lblSETSUDANCHO");
+            this.lblSETSUDANCHO.Name = "lblSETSUDANCHO";
+            // 
+            // lblB_KAIROKIGOU
+            // 
+            this.lblB_KAIROKIGOU.BackColor = System.Drawing.Color.White;
+            this.lblB_KAIROKIGOU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblB_KAIROKIGOU, "lblB_KAIROKIGOU");
+            this.lblB_KAIROKIGOU.Name = "lblB_KAIROKIGOU";
+            // 
+            // lblA_KAIROKIGOU
+            // 
+            this.lblA_KAIROKIGOU.BackColor = System.Drawing.Color.White;
+            this.lblA_KAIROKIGOU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblA_KAIROKIGOU, "lblA_KAIROKIGOU");
+            this.lblA_KAIROKIGOU.Name = "lblA_KAIROKIGOU";
+            // 
+            // lblDENSEN_CODE
+            // 
+            this.lblDENSEN_CODE.BackColor = System.Drawing.Color.White;
+            this.lblDENSEN_CODE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblDENSEN_CODE, "lblDENSEN_CODE");
+            this.lblDENSEN_CODE.Name = "lblDENSEN_CODE";
+            // 
+            // lblIRO
+            // 
+            this.lblIRO.BackColor = System.Drawing.Color.White;
+            this.lblIRO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblIRO, "lblIRO");
+            this.lblIRO.Name = "lblIRO";
+            // 
+            // lblSIZE
+            // 
+            this.lblSIZE.BackColor = System.Drawing.Color.White;
+            this.lblSIZE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSIZE, "lblSIZE");
+            this.lblSIZE.Name = "lblSIZE";
+            // 
+            // lblSENSYU
+            // 
+            this.lblSENSYU.BackColor = System.Drawing.Color.White;
+            this.lblSENSYU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSENSYU, "lblSENSYU");
+            this.lblSENSYU.Name = "lblSENSYU";
+            // 
+            // lblTABADORISU
+            // 
+            this.lblTABADORISU.BackColor = System.Drawing.Color.White;
+            this.lblTABADORISU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblTABADORISU, "lblTABADORISU");
+            this.lblTABADORISU.Name = "lblTABADORISU";
+            // 
+            // lblSETSU
+            // 
+            this.lblSETSU.BackColor = System.Drawing.Color.White;
+            this.lblSETSU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSETSU, "lblSETSU");
+            this.lblSETSU.Name = "lblSETSU";
+            // 
+            // lblDEKIDAKA1
+            // 
+            this.lblDEKIDAKA1.BackColor = System.Drawing.Color.White;
+            this.lblDEKIDAKA1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblDEKIDAKA1, "lblDEKIDAKA1");
+            this.lblDEKIDAKA1.Name = "lblDEKIDAKA1";
+            // 
+            // lblRENBAN
+            // 
+            this.lblRENBAN.BackColor = System.Drawing.Color.White;
+            this.lblRENBAN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblRENBAN, "lblRENBAN");
+            this.lblRENBAN.Name = "lblRENBAN";
+            // 
+            // lblSEIBAN
+            // 
+            this.lblSEIBAN.BackColor = System.Drawing.Color.White;
+            this.lblSEIBAN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSEIBAN, "lblSEIBAN");
+            this.lblSEIBAN.Name = "lblSEIBAN";
+            // 
+            // lblHINBAN
+            // 
+            this.lblHINBAN.BackColor = System.Drawing.Color.White;
+            this.lblHINBAN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblHINBAN, "lblHINBAN");
+            this.lblHINBAN.Name = "lblHINBAN";
+            // 
+            // txtBARCODE
+            // 
+            this.txtBARCODE.AllowAll = true;
+            this.txtBARCODE.AllowDot = true;
+            this.txtBARCODE.AllowHex = false;
+            this.txtBARCODE.AllowSign = false;
+            this.txtBARCODE.FocusColor = System.Drawing.Color.Aquamarine;
+            this.txtBARCODE.FocusStringSelect = true;
+            resources.ApplyResources(this.txtBARCODE, "txtBARCODE");
+            this.txtBARCODE.ForeColor = System.Drawing.Color.Black;
+            this.txtBARCODE.Name = "txtBARCODE";
+            this.txtBARCODE.NormalColor = System.Drawing.Color.White;
+            // 
+            // fdatafrm
+            // 
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "fdatafrm";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Activated += new System.EventHandler(this.fdatafrm_Activated);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fdatafrm_FormClosing);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblHINBAN;
+        private System.Windows.Forms.Label lblA_KAIROKIGOU;
+        private System.Windows.Forms.Label lblDENSEN_CODE;
+        private System.Windows.Forms.Label lblIRO;
+        private System.Windows.Forms.Label lblSIZE;
+        private System.Windows.Forms.Label lblSENSYU;
+        private System.Windows.Forms.Label lblTABADORISU;
+        private System.Windows.Forms.Label lblSETSU;
+        private System.Windows.Forms.Label lblDEKIDAKA1;
+        private System.Windows.Forms.Label lblRENBAN;
+        private System.Windows.Forms.Label lblSEIBAN;
+        private CustomTextBox txtBARCODE;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lblAB_CHANGE;
+        private System.Windows.Forms.Label lblB_KAWAMUKINAGASA;
+        private System.Windows.Forms.Label lblA_KAWAMUKINAGASA;
+        private System.Windows.Forms.Label lblSETSUDANCHO;
+        private System.Windows.Forms.Label lblB_KAIROKIGOU;
+    }
+}

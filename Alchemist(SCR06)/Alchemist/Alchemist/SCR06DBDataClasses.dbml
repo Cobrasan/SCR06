@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SCR06DB" Class="SCR06DBDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=THINKPADT60;Initial Catalog=SCR06DB;Integrated Security=True" SettingsObjectName="Alchemist.Properties.Settings" SettingsPropertyName="SCR06DBConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.M_Color" Member="M_Color">
+    <Type Name="M_Color">
+      <Column Name="ColorChar" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ColorCode" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="ColorRGBCode" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_ColorNo" Member="M_ColorNo">
+    <Type Name="M_ColorNo">
+      <Column Name="ColorNo" Type="System.String" DbType="Char(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ColorNoCode" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_WireSize" Member="M_WireSize">
+    <Type Name="M_WireSize">
+      <Column Name="WireSize" Type="System.String" DbType="Char(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WireSizeCode" Type="System.String" DbType="Char(3) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_WireType" Member="M_WireType">
+    <Type Name="M_WireType">
+      <Column Name="WireType" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WireTypeCode" Type="System.String" DbType="Char(3) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_WireDetail" Member="M_WireDetail">
+    <Type Name="M_WireDetail">
+      <Column Name="Wire_Code" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Wire_Color" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Core_Num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="C_Col1_1" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="C_Col1_2" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="C_Col2_1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col2_2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col3_1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col3_2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col4_1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col4_2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col5_1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col5_2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col6_1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col6_2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col7_1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col7_2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col8_1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="C_Col8_2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.L_Work" Member="L_Work">
+    <Type Name="L_Work">
+      <Column Name="Renban" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Densen_code" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_Quality" Member="M_Quality">
+    <Type Name="M_Quality">
+      <Column Name="QualityCode" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QualityItem" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.R_Quality" Member="R_Quality">
+    <Type Name="R_Quality">
+      <Column Name="Renban" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Item1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Count1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Item2" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Count2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Item3" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Count3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Item4" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Count4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Item5" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Count5" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Item6" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Count6" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_Section" Member="M_Section">
+    <Type Name="M_Section">
+      <Column Name="SectionCode" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SectionName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_GuideBlade" Member="M_GuideBlade">
+    <Type Name="M_GuideBlade">
+      <Column Name="WireType" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WireSize" Type="System.String" DbType="Char(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Guide1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Guide2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Blade" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.D_Work" Member="D_Work">
+    <Type Name="D_Work">
+      <Column Name="Renban" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Hinban" Type="System.String" DbType="Char(26)" CanBeNull="true" />
+      <Column Name="Seiban" Type="System.String" DbType="Char(11)" CanBeNull="true" />
+      <Column Name="A_kairokigou" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="B_kairokigou" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="Setsu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tabadorisu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Dute1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Sensyu" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="Iro" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="Setsudancho" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="A_kawamukinagasa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="B_kawamukinagasa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Densen_Code" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_Operator" Member="T_Operator">
+    <Type Name="T_Operator">
+      <Column Name="OperatorCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OperatorName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="WorkDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.R_Work" Member="R_Work">
+    <Type Name="R_Work">
+      <Column Name="Renban" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Hinban" Type="System.String" DbType="Char(26)" CanBeNull="true" />
+      <Column Name="Seiban" Type="System.String" DbType="Char(11)" CanBeNull="true" />
+      <Column Name="A_kairokigou" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="B_kairokigou" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="Setsu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tabadorisu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Dute1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Sensyu" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="Iro" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="Setsudancho" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="A_kawamukinagasa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="B_kawamukinagasa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Densen_code" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Sagyosya_code" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Sagyosya_name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Setsudancho_set" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="A_kawamukinagasa_set" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="B_kawamukinagasa_set" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="A_hogushiryo_set" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="B_hogushiryo_set" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Kaishi_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Syuryo_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AB_change" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="Chudan_setsu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Chudan_tabadorisu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sagyou_status" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_Operator" Member="M_Operator">
+    <Type Name="M_Operator">
+      <Column Name="OperatorCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OperatorName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="OperatorGroup" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

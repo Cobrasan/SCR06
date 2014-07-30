@@ -1,0 +1,301 @@
+﻿namespace Alchemist
+{
+    partial class wireChangeInfofrm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblGUIDENAME1 = new System.Windows.Forms.Label();
+            this.lblBLADENAME = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnCLOSE = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblWIRENAME = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblGUIDENAME2 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label6.Location = new System.Drawing.Point(88, 145);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(181, 23);
+            this.label6.TabIndex = 69;
+            this.label6.Text = "ガイド";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblGUIDENAME1
+            // 
+            this.lblGUIDENAME1.BackColor = System.Drawing.Color.White;
+            this.lblGUIDENAME1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblGUIDENAME1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblGUIDENAME1.ForeColor = System.Drawing.Color.Black;
+            this.lblGUIDENAME1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblGUIDENAME1.Location = new System.Drawing.Point(91, 168);
+            this.lblGUIDENAME1.Name = "lblGUIDENAME1";
+            this.lblGUIDENAME1.Size = new System.Drawing.Size(167, 18);
+            this.lblGUIDENAME1.TabIndex = 68;
+            this.lblGUIDENAME1.Text = "123456";
+            this.lblGUIDENAME1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblBLADENAME
+            // 
+            this.lblBLADENAME.BackColor = System.Drawing.Color.White;
+            this.lblBLADENAME.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBLADENAME.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblBLADENAME.ForeColor = System.Drawing.Color.Black;
+            this.lblBLADENAME.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblBLADENAME.Location = new System.Drawing.Point(91, 127);
+            this.lblBLADENAME.Name = "lblBLADENAME";
+            this.lblBLADENAME.Size = new System.Drawing.Size(344, 18);
+            this.lblBLADENAME.TabIndex = 67;
+            this.lblBLADENAME.Text = "1234567890";
+            this.lblBLADENAME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label3.Location = new System.Drawing.Point(88, 104);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(181, 23);
+            this.label3.TabIndex = 66;
+            this.label3.Text = "ブレード";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Navy;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(91, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(344, 33);
+            this.label1.TabIndex = 70;
+            this.label1.Text = "段取り替えをしてください。";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnCLOSE
+            // 
+            this.btnCLOSE.Enabled = false;
+            this.btnCLOSE.Location = new System.Drawing.Point(91, 218);
+            this.btnCLOSE.Name = "btnCLOSE";
+            this.btnCLOSE.Size = new System.Drawing.Size(344, 44);
+            this.btnCLOSE.TabIndex = 71;
+            this.btnCLOSE.TabStop = false;
+            this.btnCLOSE.Text = "段取り替え終了";
+            this.btnCLOSE.UseVisualStyleBackColor = true;
+            this.btnCLOSE.Click += new System.EventHandler(this.btnCLOSE_Click);
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(88, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(181, 23);
+            this.label2.TabIndex = 72;
+            this.label2.Text = "電線名";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblWIRENAME
+            // 
+            this.lblWIRENAME.BackColor = System.Drawing.Color.White;
+            this.lblWIRENAME.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblWIRENAME.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblWIRENAME.ForeColor = System.Drawing.Color.Black;
+            this.lblWIRENAME.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblWIRENAME.Location = new System.Drawing.Point(91, 84);
+            this.lblWIRENAME.Name = "lblWIRENAME";
+            this.lblWIRENAME.Size = new System.Drawing.Size(344, 18);
+            this.lblWIRENAME.TabIndex = 73;
+            this.lblWIRENAME.Text = "123456";
+            this.lblWIRENAME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.checkBox1.Location = new System.Drawing.Point(3, 3);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(59, 18);
+            this.checkBox1.TabIndex = 74;
+            this.checkBox1.Text = "Check";
+            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.lblGUIDENAME2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.lblBLADENAME);
+            this.panel1.Controls.Add(this.lblGUIDENAME1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.lblWIRENAME);
+            this.panel1.Controls.Add(this.btnCLOSE);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(523, 292);
+            this.panel1.TabIndex = 77;
+            // 
+            // lblGUIDENAME2
+            // 
+            this.lblGUIDENAME2.BackColor = System.Drawing.Color.White;
+            this.lblGUIDENAME2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblGUIDENAME2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblGUIDENAME2.ForeColor = System.Drawing.Color.Black;
+            this.lblGUIDENAME2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblGUIDENAME2.Location = new System.Drawing.Point(268, 168);
+            this.lblGUIDENAME2.Name = "lblGUIDENAME2";
+            this.lblGUIDENAME2.Size = new System.Drawing.Size(167, 18);
+            this.lblGUIDENAME2.TabIndex = 77;
+            this.lblGUIDENAME2.Text = "1234567890";
+            this.lblGUIDENAME2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Location = new System.Drawing.Point(444, 84);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(69, 28);
+            this.panel2.TabIndex = 78;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.checkBox2);
+            this.panel3.Location = new System.Drawing.Point(444, 127);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(69, 28);
+            this.panel3.TabIndex = 79;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.checkBox2.Location = new System.Drawing.Point(3, 3);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(59, 18);
+            this.checkBox2.TabIndex = 74;
+            this.checkBox2.Text = "Check";
+            this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.checkBox3);
+            this.panel4.Location = new System.Drawing.Point(443, 168);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(69, 28);
+            this.panel4.TabIndex = 80;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.checkBox3.Location = new System.Drawing.Point(3, 3);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(59, 18);
+            this.checkBox3.TabIndex = 74;
+            this.checkBox3.Text = "Check";
+            this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // wireChangeInfofrm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(523, 292);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "wireChangeInfofrm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "wireChangeInfofrm";
+            this.Activated += new System.EventHandler(this.wireChangeInfofrm_Activated);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.wireChangeInfofrm_FormClosing);
+            this.Load += new System.EventHandler(this.wireChangeInfofrm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblGUIDENAME1;
+        private System.Windows.Forms.Label lblBLADENAME;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCLOSE;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblWIRENAME;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label lblGUIDENAME2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Panel panel2;
+    }
+}

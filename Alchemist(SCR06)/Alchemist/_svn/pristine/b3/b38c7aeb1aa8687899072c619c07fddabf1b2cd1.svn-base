@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TIMM_0101" xml:space="preserve">
+    <value>Swing clamp close -&gt; Transfer clamp close</value>
+  </data>
+  <data name="TIMM_0102" xml:space="preserve">
+    <value>Cutter close (complete) -&gt; No1 slider strip pos.</value>
+  </data>
+  <data name="TIMM_0103" xml:space="preserve">
+    <value>No1 slider strip pos. -&gt; Swing strip ST</value>
+  </data>
+  <data name="TIMM_0104" xml:space="preserve">
+    <value>Strip wait time</value>
+  </data>
+  <data name="TIMM_0105" xml:space="preserve">
+    <value>Stripper close (complete) -&gt; No1 slider back pos.</value>
+  </data>
+  <data name="TIMM_0106" xml:space="preserve">
+    <value>No1 slider crimp back pos. -&gt; Swing: origin pos.</value>
+  </data>
+  <data name="TIMM_0107" xml:space="preserve">
+    <value>Swing origin pos. -&gt; No1 slider origin pos.</value>
+  </data>
+  <data name="TIMM_0108" xml:space="preserve">
+    <value>No1 slider origin pos. -&gt; Feed start</value>
+  </data>
+  <data name="TIMM_0109" xml:space="preserve">
+    <value>Feed complete -&gt; Wire guide close</value>
+  </data>
+  <data name="TIMM_010A" xml:space="preserve">
+    <value>BackFeed: Slider origin pos. -&gt; BackFeed start</value>
+  </data>
+  <data name="TIMM_010B" xml:space="preserve">
+    <value>BackFeed: BackFeed complete -&gt; Feed start</value>
+  </data>
+  <data name="TIMM_010C" xml:space="preserve">
+    <value>Swing crimp pos. -&gt; Vacume turn off</value>
+  </data>
+  <data name="TIMM_010D" xml:space="preserve">
+    <value>Semi: Slider semi-strip back pos. -&gt; Swing origin pos.</value>
+  </data>
+  <data name="TIMM_010E" xml:space="preserve">
+    <value>Semi: Swing (slider) origin pos. -&gt; Feed start</value>
+  </data>
+  <data name="TIMM_010F" xml:space="preserve">
+    <value>No1 sinker up -&gt; Carrier cutter turn off</value>
+  </data>
+  <data name="TIMM_0110" xml:space="preserve">
+    <value>Carrier cutter turn on -&gt; Carieer cutter turn off</value>
+  </data>
+  <data name="TIMM_0111" xml:space="preserve">
+    <value>CrimpEsc:Sinker up -&gt; Swing crimp esc. ST</value>
+  </data>
+  <data name="TIMM_0112" xml:space="preserve">
+    <value>CrimpEsc:Swing crimp esc. ST -&gt; Slider crimp detect pos.</value>
+  </data>
+  <data name="TIMM_0113" xml:space="preserve">
+    <value>Crimp after judgement: Wait time for crimp start</value>
+  </data>
+  <data name="TIMM_0201" xml:space="preserve">
+    <value>Transfer clamp close -&gt; Cutter close</value>
+  </data>
+  <data name="TIMM_0202" xml:space="preserve">
+    <value>Cutter close (complete) -&gt; Slider strip pos</value>
+  </data>
+  <data name="TIMM_0203" xml:space="preserve">
+    <value>Slider strip pos. -&gt; Transfer strip ST</value>
+  </data>
+  <data name="TIMM_0204" xml:space="preserve">
+    <value>Strip wait time</value>
+  </data>
+  <data name="TIMM_0205" xml:space="preserve">
+    <value>Stripper close (complete) -&gt; Slider strip back pos.</value>
+  </data>
+  <data name="TIMM_0206" xml:space="preserve">
+    <value>Slider: Strip back pos. -&gt; Transfer crimp ST</value>
+  </data>
+  <data name="TIMM_0207" xml:space="preserve">
+    <value>Transfer reclamp ST -&gt; Transfer crimp ST</value>
+  </data>
+  <data name="TIMM_0208" xml:space="preserve">
+    <value>Transfer clamp open -&gt; Transfer origin pos.</value>
+  </data>
+  <data name="TIMM_0209" xml:space="preserve">
+    <value>Transfer origin pos. -&gt; Slider origin pos.</value>
+  </data>
+  <data name="TIMM_020A" xml:space="preserve">
+    <value>Transfer crimp ST -&gt; Vacume turn off</value>
+  </data>
+  <data name="TIMM_020B" xml:space="preserve">
+    <value>Semi:Slider semi-strip back pos. -&gt; Trans. reclamp pos.</value>
+  </data>
+  <data name="TIMM_020C" xml:space="preserve">
+    <value>Semi:Transfer reclamp pos. -&gt; Ejector clamp close</value>
+  </data>
+  <data name="TIMM_020D" xml:space="preserve">
+    <value>Sinker up -&gt; carrier cutter turn on</value>
+  </data>
+  <data name="TIMM_020E" xml:space="preserve">
+    <value>Carrier cutter turn on -&gt; Carrier cutter turn off</value>
+  </data>
+  <data name="TIMM_020F" xml:space="preserve">
+    <value>OverTop: Sinker up -&gt; Slider Edge rehold pos.</value>
+  </data>
+  <data name="TIMM_0210" xml:space="preserve">
+    <value>Trans: Crimp ST -&gt; Slider edge rehold pos. (switched add)</value>
+  </data>
+  <data name="TIMM_0211" xml:space="preserve">
+    <value>Trans: Crimp ST -&gt; Crimp start (switched add)</value>
+  </data>
+  <data name="TIMM_0212" xml:space="preserve">
+    <value>Trans: Crimp ST -&gt; Ejector clamp close (switched add)</value>
+  </data>
+  <data name="TIMM_0213" xml:space="preserve">
+    <value>CrimpEsc: Sinker up -&gt; Transfer crimp esc. Pos.</value>
+  </data>
+  <data name="TIMM_0214" xml:space="preserve">
+    <value>Crimp after judgement: Wait time for crimp start</value>
+  </data>
+  <data name="TIMM_0215" xml:space="preserve">
+    <value>Crimp after judgement: Wait time for eject clamp close</value>
+  </data>
+  <data name="TIMM_0216" xml:space="preserve">
+    <value>Trans: Strip pre-detect pos. -&gt; Slider strip detect pos.</value>
+  </data>
+  <data name="TIMM_0217" xml:space="preserve">
+    <value>Slider: Strip detect pos. -&gt; Trans. Strip detect pos.</value>
+  </data>
+  <data name="TIMM_0301" xml:space="preserve">
+    <value>Eject clamp open -&gt; Ejector rehold pos.</value>
+  </data>
+  <data name="TIMM_0302" xml:space="preserve">
+    <value>Ejector rehold pos. -&gt; Eject clamp close</value>
+  </data>
+  <data name="TIMM_0303" xml:space="preserve">
+    <value>Eject clamp close -&gt; Transfer clamp open</value>
+  </data>
+  <data name="TIMM_0304" xml:space="preserve">
+    <value>Eject clamp open -&gt; Ejector eject pos.</value>
+  </data>
+  <data name="TIMM_0305" xml:space="preserve">
+    <value>Ejector eject pos. -&gt; Eject clamp open</value>
+  </data>
+  <data name="TIMM_0306" xml:space="preserve">
+    <value>OverTop: Transfer clamp open -&gt; Ejector eject pos.</value>
+  </data>
+  <data name="TIMM_0307" xml:space="preserve">
+    <value>Airblow1: Wait time to start</value>
+  </data>
+  <data name="TIMM_0308" xml:space="preserve">
+    <value>Airblow1: Blowing time</value>
+  </data>
+  <data name="TIMM_0309" xml:space="preserve">
+    <value>Airblow2: Wait time to start</value>
+  </data>
+  <data name="TIMM_030A" xml:space="preserve">
+    <value>Airblow2: Blowing time</value>
+  </data>
+  <data name="TIMM_0401" xml:space="preserve">
+    <value>Swing: Crimp ST -&gt; Slider crimp pos.</value>
+  </data>
+  <data name="TIMM_0402" xml:space="preserve">
+    <value>Swing Crimp ST -&gt; Crimp start</value>
+  </data>
+  <data name="TIMM_0403" xml:space="preserve">
+    <value>Crimp start -&gt; No1 sinker down</value>
+  </data>
+  <data name="TIMM_0404" xml:space="preserve">
+    <value>Crimp start -&gt; No1 sinker up</value>
+  </data>
+  <data name="TIMM_0405" xml:space="preserve">
+    <value>No1 sinker up -&gt; Slider crimp detect pos.</value>
+  </data>
+  <data name="TIMM_0406" xml:space="preserve">
+    <value>Crimp start -&gt; PFM trigger</value>
+  </data>
+  <data name="TIMM_0507" xml:space="preserve">
+    <value>Trans: Crimp ST -&gt; Slider crimp pos.</value>
+  </data>
+  <data name="TIMM_0508" xml:space="preserve">
+    <value>Trans: Crimp ST -&gt; Crimp start</value>
+  </data>
+  <data name="TIMM_0509" xml:space="preserve">
+    <value>Crimp start -&gt; No2 sinker down</value>
+  </data>
+  <data name="TIMM_050A" xml:space="preserve">
+    <value>Crimp start -&gt; No2 sinker up</value>
+  </data>
+  <data name="TIMM_050B" xml:space="preserve">
+    <value>No2 sinker up -&gt; Eject clamp close</value>
+  </data>
+  <data name="TIMM_050C" xml:space="preserve">
+    <value>Crimp start -&gt; PFM trigger</value>
+  </data>
+  <data name="TIMM_0601" xml:space="preserve">
+    <value>Slider: Seal insert start pos. -&gt; Swing seal insert ST</value>
+  </data>
+  <data name="TIMM_0602" xml:space="preserve">
+    <value>Swing seal insert ST -&gt; Slider seal insert pos.</value>
+  </data>
+  <data name="TIMM_0603" xml:space="preserve">
+    <value>Slider seal insert pos. -&gt; Slider seal insert back pos.</value>
+  </data>
+  <data name="TIMM_0604" xml:space="preserve">
+    <value>Slider seal insert back pos. -&gt; Wait the complete</value>
+  </data>
+  <data name="TIMM_0605" xml:space="preserve">
+    <value>Seal set start -&gt; Slider seal insert start pos.</value>
+  </data>
+  <data name="TIMM_0606" xml:space="preserve">
+    <value>Slider seal insert start pos. -&gt; Swing seal insert ST</value>
+  </data>
+  <data name="TIMM_0701" xml:space="preserve">
+    <value>Slider seal insert start pos. -&gt; Trans: Seal insert ST</value>
+  </data>
+  <data name="TIMM_0702" xml:space="preserve">
+    <value>Trans: Seal insert ST -&gt; Slider seal insert pos.</value>
+  </data>
+  <data name="TIMM_0703" xml:space="preserve">
+    <value>Slider seal insert pos. -&gt; Slider seal insert back pos.</value>
+  </data>
+  <data name="TIMM_0704" xml:space="preserve">
+    <value>Slider seal insert back pos. -&gt; Wait the complete</value>
+  </data>
+  <data name="TIMM_0705" xml:space="preserve">
+    <value>Seal set start -&gt; Slider seal insert start pos.</value>
+  </data>
+  <data name="TIMM_0706" xml:space="preserve">
+    <value>Slider seal insert start pos. -&gt; Trans: Strip pos.</value>
+  </data>
+</root>

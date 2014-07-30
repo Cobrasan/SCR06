@@ -1,0 +1,553 @@
+﻿namespace Alchemist
+{
+    partial class fdatafrm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtBARCODE = new Alchemist.CustomTextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lblAB_CHANGE = new System.Windows.Forms.Label();
+            this.lblB_KAWAMUKINAGASA = new System.Windows.Forms.Label();
+            this.lblA_KAWAMUKINAGASA = new System.Windows.Forms.Label();
+            this.lblSETSUDANCHO = new System.Windows.Forms.Label();
+            this.lblB_KAIROKIGOU = new System.Windows.Forms.Label();
+            this.lblA_KAIROKIGOU = new System.Windows.Forms.Label();
+            this.lblDENSEN_CODE = new System.Windows.Forms.Label();
+            this.lblIRO = new System.Windows.Forms.Label();
+            this.lblSIZE = new System.Windows.Forms.Label();
+            this.lblSENSYU = new System.Windows.Forms.Label();
+            this.lblTABADORISU = new System.Windows.Forms.Label();
+            this.lblSETSU = new System.Windows.Forms.Label();
+            this.lblDEKIDAKA1 = new System.Windows.Forms.Label();
+            this.lblRENBAN = new System.Windows.Forms.Label();
+            this.lblSEIBAN = new System.Windows.Forms.Label();
+            this.lblHINBAN = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.txtBARCODE);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(803, 87);
+            this.panel1.TabIndex = 0;
+            // 
+            // txtBARCODE
+            // 
+            this.txtBARCODE.AllowAll = false;
+            this.txtBARCODE.AllowDot = true;
+            this.txtBARCODE.AllowHex = false;
+            this.txtBARCODE.AllowSign = false;
+            this.txtBARCODE.FocusColor = System.Drawing.Color.Aquamarine;
+            this.txtBARCODE.FocusStringSelect = true;
+            this.txtBARCODE.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.txtBARCODE.ForeColor = System.Drawing.Color.Black;
+            this.txtBARCODE.Location = new System.Drawing.Point(257, 52);
+            this.txtBARCODE.Name = "txtBARCODE";
+            this.txtBARCODE.NormalColor = System.Drawing.Color.White;
+            this.txtBARCODE.Size = new System.Drawing.Size(257, 23);
+            this.txtBARCODE.TabIndex = 14;
+            this.txtBARCODE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.PaleGreen;
+            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label17.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label17.Location = new System.Drawing.Point(20, 16);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(740, 23);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "エフデータの読み取りをしてください";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label32);
+            this.panel2.Controls.Add(this.label31);
+            this.panel2.Controls.Add(this.label30);
+            this.panel2.Controls.Add(this.label29);
+            this.panel2.Controls.Add(this.label28);
+            this.panel2.Controls.Add(this.label27);
+            this.panel2.Controls.Add(this.label26);
+            this.panel2.Controls.Add(this.label25);
+            this.panel2.Controls.Add(this.label24);
+            this.panel2.Controls.Add(this.label23);
+            this.panel2.Controls.Add(this.label22);
+            this.panel2.Controls.Add(this.label21);
+            this.panel2.Controls.Add(this.label20);
+            this.panel2.Controls.Add(this.label19);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.lblAB_CHANGE);
+            this.panel2.Controls.Add(this.lblB_KAWAMUKINAGASA);
+            this.panel2.Controls.Add(this.lblA_KAWAMUKINAGASA);
+            this.panel2.Controls.Add(this.lblSETSUDANCHO);
+            this.panel2.Controls.Add(this.lblB_KAIROKIGOU);
+            this.panel2.Controls.Add(this.lblA_KAIROKIGOU);
+            this.panel2.Controls.Add(this.lblDENSEN_CODE);
+            this.panel2.Controls.Add(this.lblIRO);
+            this.panel2.Controls.Add(this.lblSIZE);
+            this.panel2.Controls.Add(this.lblSENSYU);
+            this.panel2.Controls.Add(this.lblTABADORISU);
+            this.panel2.Controls.Add(this.lblSETSU);
+            this.panel2.Controls.Add(this.lblDEKIDAKA1);
+            this.panel2.Controls.Add(this.lblRENBAN);
+            this.panel2.Controls.Add(this.lblSEIBAN);
+            this.panel2.Controls.Add(this.lblHINBAN);
+            this.panel2.Location = new System.Drawing.Point(12, 105);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(803, 385);
+            this.panel2.TabIndex = 1;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label32.Location = new System.Drawing.Point(657, 260);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(83, 12);
+            this.label32.TabIndex = 30;
+            this.label32.Text = "Ｂ　皮剥ぎ長さ";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label31.Location = new System.Drawing.Point(18, 260);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(83, 12);
+            this.label31.TabIndex = 29;
+            this.label31.Text = "Ａ　皮剥ぎ長さ";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label30.Location = new System.Drawing.Point(348, 260);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(44, 12);
+            this.label30.TabIndex = 28;
+            this.label30.Text = "切断長";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label29.Location = new System.Drawing.Point(657, 199);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(76, 12);
+            this.label29.TabIndex = 27;
+            this.label29.Text = "Ｂ　回路記号";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label28.Location = new System.Drawing.Point(18, 199);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(76, 12);
+            this.label28.TabIndex = 26;
+            this.label28.Text = "Ａ　回路記号";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label27.Location = new System.Drawing.Point(448, 139);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(61, 12);
+            this.label27.TabIndex = 25;
+            this.label27.Text = "電線コード";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label26.Location = new System.Drawing.Point(296, 139);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(18, 12);
+            this.label26.TabIndex = 24;
+            this.label26.Text = "色";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label25.Location = new System.Drawing.Point(148, 140);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(37, 12);
+            this.label25.TabIndex = 23;
+            this.label25.Text = "サイズ";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label24.Location = new System.Drawing.Point(18, 139);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(44, 12);
+            this.label24.TabIndex = 22;
+            this.label24.Text = "電線種";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label23.Location = new System.Drawing.Point(139, 79);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(53, 12);
+            this.label23.TabIndex = 21;
+            this.label23.Text = "束取り数";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.Location = new System.Drawing.Point(18, 79);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(46, 12);
+            this.label22.TabIndex = 20;
+            this.label22.Text = "セット数";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label21.Location = new System.Drawing.Point(661, 22);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(53, 12);
+            this.label21.TabIndex = 19;
+            this.label21.Text = "出来期１";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label20.Location = new System.Drawing.Point(507, 22);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(31, 12);
+            this.label20.TabIndex = 18;
+            this.label20.Text = "連番";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label19.Location = new System.Drawing.Point(329, 22);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(31, 12);
+            this.label19.TabIndex = 17;
+            this.label19.Text = "製番";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label18.Location = new System.Drawing.Point(18, 22);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(31, 12);
+            this.label18.TabIndex = 16;
+            this.label18.Text = "品番";
+            // 
+            // lblAB_CHANGE
+            // 
+            this.lblAB_CHANGE.BackColor = System.Drawing.Color.Yellow;
+            this.lblAB_CHANGE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblAB_CHANGE.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblAB_CHANGE.Location = new System.Drawing.Point(30, 353);
+            this.lblAB_CHANGE.Name = "lblAB_CHANGE";
+            this.lblAB_CHANGE.Size = new System.Drawing.Size(740, 23);
+            this.lblAB_CHANGE.TabIndex = 15;
+            this.lblAB_CHANGE.Text = "このデータは皮剥ぎ長さＡとＢが入れ替えられています";
+            this.lblAB_CHANGE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblB_KAWAMUKINAGASA
+            // 
+            this.lblB_KAWAMUKINAGASA.BackColor = System.Drawing.Color.White;
+            this.lblB_KAWAMUKINAGASA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblB_KAWAMUKINAGASA.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblB_KAWAMUKINAGASA.Location = new System.Drawing.Point(659, 284);
+            this.lblB_KAWAMUKINAGASA.Name = "lblB_KAWAMUKINAGASA";
+            this.lblB_KAWAMUKINAGASA.Size = new System.Drawing.Size(101, 23);
+            this.lblB_KAWAMUKINAGASA.TabIndex = 14;
+            this.lblB_KAWAMUKINAGASA.Text = "1234";
+            this.lblB_KAWAMUKINAGASA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA_KAWAMUKINAGASA
+            // 
+            this.lblA_KAWAMUKINAGASA.BackColor = System.Drawing.Color.White;
+            this.lblA_KAWAMUKINAGASA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblA_KAWAMUKINAGASA.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblA_KAWAMUKINAGASA.Location = new System.Drawing.Point(20, 284);
+            this.lblA_KAWAMUKINAGASA.Name = "lblA_KAWAMUKINAGASA";
+            this.lblA_KAWAMUKINAGASA.Size = new System.Drawing.Size(101, 23);
+            this.lblA_KAWAMUKINAGASA.TabIndex = 13;
+            this.lblA_KAWAMUKINAGASA.Text = "1234";
+            this.lblA_KAWAMUKINAGASA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSETSUDANCHO
+            // 
+            this.lblSETSUDANCHO.BackColor = System.Drawing.Color.White;
+            this.lblSETSUDANCHO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSETSUDANCHO.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblSETSUDANCHO.Location = new System.Drawing.Point(350, 284);
+            this.lblSETSUDANCHO.Name = "lblSETSUDANCHO";
+            this.lblSETSUDANCHO.Size = new System.Drawing.Size(101, 23);
+            this.lblSETSUDANCHO.TabIndex = 12;
+            this.lblSETSUDANCHO.Text = "1234";
+            this.lblSETSUDANCHO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblB_KAIROKIGOU
+            // 
+            this.lblB_KAIROKIGOU.BackColor = System.Drawing.Color.White;
+            this.lblB_KAIROKIGOU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblB_KAIROKIGOU.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblB_KAIROKIGOU.Location = new System.Drawing.Point(659, 223);
+            this.lblB_KAIROKIGOU.Name = "lblB_KAIROKIGOU";
+            this.lblB_KAIROKIGOU.Size = new System.Drawing.Size(101, 23);
+            this.lblB_KAIROKIGOU.TabIndex = 11;
+            this.lblB_KAIROKIGOU.Text = "1234";
+            this.lblB_KAIROKIGOU.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA_KAIROKIGOU
+            // 
+            this.lblA_KAIROKIGOU.BackColor = System.Drawing.Color.White;
+            this.lblA_KAIROKIGOU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblA_KAIROKIGOU.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblA_KAIROKIGOU.Location = new System.Drawing.Point(20, 223);
+            this.lblA_KAIROKIGOU.Name = "lblA_KAIROKIGOU";
+            this.lblA_KAIROKIGOU.Size = new System.Drawing.Size(101, 23);
+            this.lblA_KAIROKIGOU.TabIndex = 10;
+            this.lblA_KAIROKIGOU.Text = "1234";
+            this.lblA_KAIROKIGOU.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDENSEN_CODE
+            // 
+            this.lblDENSEN_CODE.BackColor = System.Drawing.Color.White;
+            this.lblDENSEN_CODE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblDENSEN_CODE.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblDENSEN_CODE.Location = new System.Drawing.Point(450, 160);
+            this.lblDENSEN_CODE.Name = "lblDENSEN_CODE";
+            this.lblDENSEN_CODE.Size = new System.Drawing.Size(151, 23);
+            this.lblDENSEN_CODE.TabIndex = 9;
+            this.lblDENSEN_CODE.Text = "1234567890";
+            this.lblDENSEN_CODE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblIRO
+            // 
+            this.lblIRO.BackColor = System.Drawing.Color.White;
+            this.lblIRO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblIRO.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblIRO.Location = new System.Drawing.Point(298, 160);
+            this.lblIRO.Name = "lblIRO";
+            this.lblIRO.Size = new System.Drawing.Size(107, 23);
+            this.lblIRO.TabIndex = 8;
+            this.lblIRO.Text = "12345";
+            this.lblIRO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSIZE
+            // 
+            this.lblSIZE.BackColor = System.Drawing.Color.White;
+            this.lblSIZE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSIZE.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblSIZE.Location = new System.Drawing.Point(150, 160);
+            this.lblSIZE.Name = "lblSIZE";
+            this.lblSIZE.Size = new System.Drawing.Size(118, 23);
+            this.lblSIZE.TabIndex = 7;
+            this.lblSIZE.Text = "123456";
+            this.lblSIZE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSENSYU
+            // 
+            this.lblSENSYU.BackColor = System.Drawing.Color.White;
+            this.lblSENSYU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSENSYU.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblSENSYU.Location = new System.Drawing.Point(20, 160);
+            this.lblSENSYU.Name = "lblSENSYU";
+            this.lblSENSYU.Size = new System.Drawing.Size(107, 23);
+            this.lblSENSYU.TabIndex = 6;
+            this.lblSENSYU.Text = "12345";
+            this.lblSENSYU.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblTABADORISU
+            // 
+            this.lblTABADORISU.BackColor = System.Drawing.Color.White;
+            this.lblTABADORISU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblTABADORISU.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblTABADORISU.Location = new System.Drawing.Point(141, 100);
+            this.lblTABADORISU.Name = "lblTABADORISU";
+            this.lblTABADORISU.Size = new System.Drawing.Size(93, 23);
+            this.lblTABADORISU.TabIndex = 5;
+            this.lblTABADORISU.Text = "1234";
+            this.lblTABADORISU.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSETSU
+            // 
+            this.lblSETSU.BackColor = System.Drawing.Color.White;
+            this.lblSETSU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSETSU.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblSETSU.Location = new System.Drawing.Point(20, 100);
+            this.lblSETSU.Name = "lblSETSU";
+            this.lblSETSU.Size = new System.Drawing.Size(93, 23);
+            this.lblSETSU.TabIndex = 4;
+            this.lblSETSU.Text = "1234";
+            this.lblSETSU.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDEKIDAKA1
+            // 
+            this.lblDEKIDAKA1.BackColor = System.Drawing.Color.White;
+            this.lblDEKIDAKA1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblDEKIDAKA1.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblDEKIDAKA1.Location = new System.Drawing.Point(663, 43);
+            this.lblDEKIDAKA1.Name = "lblDEKIDAKA1";
+            this.lblDEKIDAKA1.Size = new System.Drawing.Size(97, 23);
+            this.lblDEKIDAKA1.TabIndex = 3;
+            this.lblDEKIDAKA1.Text = "1234";
+            this.lblDEKIDAKA1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblRENBAN
+            // 
+            this.lblRENBAN.BackColor = System.Drawing.Color.White;
+            this.lblRENBAN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblRENBAN.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblRENBAN.Location = new System.Drawing.Point(509, 43);
+            this.lblRENBAN.Name = "lblRENBAN";
+            this.lblRENBAN.Size = new System.Drawing.Size(130, 23);
+            this.lblRENBAN.TabIndex = 2;
+            this.lblRENBAN.Text = "12345678";
+            this.lblRENBAN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSEIBAN
+            // 
+            this.lblSEIBAN.BackColor = System.Drawing.Color.White;
+            this.lblSEIBAN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSEIBAN.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblSEIBAN.Location = new System.Drawing.Point(331, 43);
+            this.lblSEIBAN.Name = "lblSEIBAN";
+            this.lblSEIBAN.Size = new System.Drawing.Size(154, 23);
+            this.lblSEIBAN.TabIndex = 1;
+            this.lblSEIBAN.Text = "12345678901";
+            this.lblSEIBAN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHINBAN
+            // 
+            this.lblHINBAN.BackColor = System.Drawing.Color.White;
+            this.lblHINBAN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblHINBAN.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblHINBAN.Location = new System.Drawing.Point(20, 43);
+            this.lblHINBAN.Name = "lblHINBAN";
+            this.lblHINBAN.Size = new System.Drawing.Size(290, 23);
+            this.lblHINBAN.TabIndex = 0;
+            this.lblHINBAN.Text = "12345678901234567890123456";
+            this.lblHINBAN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // fdatafrm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(827, 502);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "fdatafrm";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "エフデータ照会";
+            this.Activated += new System.EventHandler(this.fdatafrm_Activated);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fdatafrm_FormClosing);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblHINBAN;
+        private System.Windows.Forms.Label lblA_KAIROKIGOU;
+        private System.Windows.Forms.Label lblDENSEN_CODE;
+        private System.Windows.Forms.Label lblIRO;
+        private System.Windows.Forms.Label lblSIZE;
+        private System.Windows.Forms.Label lblSENSYU;
+        private System.Windows.Forms.Label lblTABADORISU;
+        private System.Windows.Forms.Label lblSETSU;
+        private System.Windows.Forms.Label lblDEKIDAKA1;
+        private System.Windows.Forms.Label lblRENBAN;
+        private System.Windows.Forms.Label lblSEIBAN;
+        private CustomTextBox txtBARCODE;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lblAB_CHANGE;
+        private System.Windows.Forms.Label lblB_KAWAMUKINAGASA;
+        private System.Windows.Forms.Label lblA_KAWAMUKINAGASA;
+        private System.Windows.Forms.Label lblSETSUDANCHO;
+        private System.Windows.Forms.Label lblB_KAIROKIGOU;
+    }
+}

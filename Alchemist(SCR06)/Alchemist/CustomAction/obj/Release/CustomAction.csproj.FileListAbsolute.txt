@@ -1,0 +1,15 @@
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\bin\Release\CustomAction.dll
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\bin\Release\CustomAction.pdb
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\ResolveAssemblyReference.cache
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.dll
+C:\Users\JAM\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.pdb
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\bin\Release\CustomAction.dll
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\bin\Release\CustomAction.pdb
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.dll
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.pdb
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomAction\bin\Release\CustomAction.dll
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomAction\bin\Release\CustomAction.pdb
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomAction\obj\Release\ResolveAssemblyReference.cache
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomAction\obj\Release\CustomAction.dll
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomAction\obj\Release\CustomAction.pdb
+C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.csprojResolveAssemblyReference.cache

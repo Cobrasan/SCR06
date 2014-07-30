@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ERR_0100" xml:space="preserve">
+    <value>I_原位置恢复中</value>
+  </data>
+  <data name="ERR_0101" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0102" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0103" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0104" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0105" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0106" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0107" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0108" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0110" xml:space="preserve">
+    <value>E_切断通信</value>
+  </data>
+  <data name="ERR_0111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0112" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0113" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SYS_0001" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="SYS_0002" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="SYS_0003" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="SYS_0004" xml:space="preserve">
+    <value>本用途的多重启动不能进行。</value>
+  </data>
+  <data name="SYS_0005" xml:space="preserve">
+    <value>从远程session不能启动本用途。</value>
+  </data>
+  <data name="SYS_0006" xml:space="preserve">
+    <value>存储器分配数据机种名与上次启动的时候不同。
+可以持续就这样启动吗？</value>
+  </data>
+  <data name="SYS_0007" xml:space="preserve">
+    <value>可以开始同期吗？</value>
+  </data>
+  <data name="SYS_0008" xml:space="preserve">
+    <value>对应的工作ID不存在。</value>
+  </data>
+  <data name="SYS_0009" xml:space="preserve">
+    <value>地址的范围不正当。</value>
+  </data>
+  <data name="SYS_000A" xml:space="preserve">
+    <value>数据的长度不正当。</value>
+  </data>
+  <data name="SYS_000B" xml:space="preserve">
+    <value>不是合理范围价值。</value>
+  </data>
+  <data name="SYS_000C" xml:space="preserve">
+    <value>坏掉了的数据库注释</value>
+  </data>
+  <data name="SYS_000D" xml:space="preserve">
+    <value>为对系统设定文件的访问失败了。</value>
+  </data>
+  <data name="SYS_000E" xml:space="preserve">
+    <value>为对存储器分配数据文件的访问失败了。</value>
+  </data>
+  <data name="SYS_000F" xml:space="preserve">
+    <value>为对数据库文件的访问失败了。</value>
+  </data>
+  <data name="SYS_0010" xml:space="preserve">
+    <value>为对补正价值文件的访问失败了。</value>
+  </data>
+  <data name="SYS_0011" xml:space="preserve">
+    <value>密码不相符。</value>
+  </data>
+  <data name="SYS_0012" xml:space="preserve">
+    <value>密码和密码(确认)的价值不同。</value>
+  </data>
+  <data name="SYS_0013" xml:space="preserve">
+    <value>进行了系统设定。</value>
+  </data>
+  <data name="SYS_0014" xml:space="preserve">
+    <value>数据库价值范围外</value>
+  </data>
+  <data name="SYS_0015" xml:space="preserve">
+    <value>没有数据库</value>
+  </data>
+  <data name="SYS_0016" xml:space="preserve">
+    <value>{0}请输入{1}以上的价值。</value>
+  </data>
+  <data name="SYS_0017" xml:space="preserve">
+    <value>对应的WORKID没找到。</value>
+  </data>
+  <data name="SYS_0018" xml:space="preserve">
+    <value>被{0}价值没输入。</value>
+  </data>
+  <data name="SYS_0019" xml:space="preserve">
+    <value>{0}的格式不正当。</value>
+  </data>
+  <data name="SYS_001A" xml:space="preserve">
+    <value>{0}，请从{1}在{2}的范围进行输入。</value>
+  </data>
+  <data name="SYS_001B" xml:space="preserve">
+    <value>{0}，请{1}以上的价值且，输入不满{2}的价值。</value>
+  </data>
+  <data name="SYS_001C" xml:space="preserve">
+    <value>因为跟自动机的同期没进行，不能进行操作。
+到自动机进行连接之后请进行操作。</value>
+  </data>
+  <data name="SYS_001D" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="SYS_001E" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="SYS_001F" xml:space="preserve">
+    <value>版本信息</value>
+  </data>
+  <data name="SYS_0020" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="ERR_0000" xml:space="preserve">
+    <value>E_切割剥皮上:原点恢复异常</value>
+  </data>
+  <data name="ERR_0001" xml:space="preserve">
+    <value>E_切割剥皮下:原点恢复异常</value>
+  </data>
+  <data name="ERR_0002" xml:space="preserve">
+    <value>E_排出:原点恢复异常</value>
+  </data>
+  <data name="ERR_0003" xml:space="preserve">
+    <value>E_送线:伺服警告</value>
+  </data>
+  <data name="ERR_0004" xml:space="preserve">
+    <value>E_No1前后:伺服警告</value>
+  </data>
+  <data name="ERR_0005" xml:space="preserve">
+    <value>E_旋转:伺服警告</value>
+  </data>
+  <data name="ERR_0006" xml:space="preserve">
+    <value>E_压着机1:伺服警告</value>
+  </data>
+  <data name="ERR_0007" xml:space="preserve">
+    <value>E_No2前后:伺服警告</value>
+  </data>
+  <data name="ERR_0008" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0009" xml:space="preserve">
+    <value>E_送线;原点恢复异常</value>
+  </data>
+  <data name="ERR_000A" xml:space="preserve">
+    <value>E_No1前后:原点恢复异常</value>
+  </data>
+  <data name="ERR_000B" xml:space="preserve">
+    <value>E_旋转:原点恢复异常</value>
+  </data>
+  <data name="ERR_000C" xml:space="preserve">
+    <value>E_压着机1:原点恢复异常</value>
+  </data>
+  <data name="ERR_000D" xml:space="preserve">
+    <value>E_No2前后:原点恢复异常</value>
+  </data>
+  <data name="ERR_000E" xml:space="preserve">
+    <value>E_搬送:原点恢复异常</value>
+  </data>
+  <data name="ERR_000F" xml:space="preserve">
+    <value>E_压着机2:原点恢复异常</value>
+  </data>
+  <data name="ERR_0010" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0011" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0012" xml:space="preserve">
+    <value>E_无电线</value>
+  </data>
+  <data name="ERR_0013" xml:space="preserve">
+    <value>E_电线过载</value>
+  </data>
+  <data name="ERR_0014" xml:space="preserve">
+    <value>I_电线接头</value>
+  </data>
+  <data name="ERR_0015" xml:space="preserve">
+    <value>I_电线接头预告</value>
+  </data>
+  <data name="ERR_0016" xml:space="preserve">
+    <value>I_接线作业[标准］</value>
+  </data>
+  <data name="ERR_0017" xml:space="preserve">
+    <value>I_接线作业</value>
+  </data>
+  <data name="ERR_0018" xml:space="preserve">
+    <value>E_搬送:伺服警告</value>
+  </data>
+  <data name="ERR_0019" xml:space="preserve">
+    <value>E_压着机2:伺服警告</value>
+  </data>
+  <data name="ERR_001A" xml:space="preserve">
+    <value>E_切割剥皮上:伺服警告</value>
+  </data>
+  <data name="ERR_001B" xml:space="preserve">
+    <value>E_切割剥皮下:伺服警告</value>
+  </data>
+  <data name="ERR_001C" xml:space="preserve">
+    <value>E_排出:伺服警告</value>
+  </data>
+  <data name="ERR_001D" xml:space="preserve">
+    <value>E_紧急停止</value>
+  </data>
+  <data name="ERR_001E" xml:space="preserve">
+    <value>E_皮带收线架异常</value>
+  </data>
+  <data name="ERR_001F" xml:space="preserve">
+    <value>E_气压下降</value>
+  </data>
+  <data name="ERR_0020" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0021" xml:space="preserve">
+    <value>E_剥皮错误1</value>
+  </data>
+  <data name="ERR_0022" xml:space="preserve">
+    <value>E_压着错误1(光纤)</value>
+  </data>
+  <data name="ERR_0023" xml:space="preserve">
+    <value>E_剥皮1检测传感器异常</value>
+  </data>
+  <data name="ERR_0024" xml:space="preserve">
+    <value>E_压着1检测传感器异常</value>
+  </data>
+  <data name="ERR_0025" xml:space="preserve">
+    <value>E_无端子1</value>
+  </data>
+  <data name="ERR_0026" xml:space="preserve">
+    <value>E_端子过载1</value>
+  </data>
+  <data name="ERR_0027" xml:space="preserve">
+    <value>E_无防水栓1</value>
+  </data>
+  <data name="ERR_0028" xml:space="preserve">
+    <value>E_送线偏差异常</value>
+  </data>
+  <data name="ERR_0029" xml:space="preserve">
+    <value>E_压力管理判定延迟</value>
+  </data>
+  <data name="ERR_002A" xml:space="preserve">
+    <value>E_管理者模式</value>
+  </data>
+  <data name="ERR_002B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0030" xml:space="preserve">
+    <value>E_剥皮错误2</value>
+  </data>
+  <data name="ERR_0031" xml:space="preserve">
+    <value>E_压着错误2(光纤)</value>
+  </data>
+  <data name="ERR_0032" xml:space="preserve">
+    <value>E_剥皮2检测传感器异常</value>
+  </data>
+  <data name="ERR_0033" xml:space="preserve">
+    <value>E_压着2检测传感器异常</value>
+  </data>
+  <data name="ERR_0034" xml:space="preserve">
+    <value>E_无端子2</value>
+  </data>
+  <data name="ERR_0035" xml:space="preserve">
+    <value>E_端子过载2</value>
+  </data>
+  <data name="ERR_0036" xml:space="preserve">
+    <value>E_无防水栓2</value>
+  </data>
+  <data name="ERR_0037" xml:space="preserve">
+    <value>E_防水栓插入错误2</value>
+  </data>
+  <data name="ERR_0038" xml:space="preserve">
+    <value>E_防水栓插入错误1</value>
+  </data>
+  <data name="ERR_0039" xml:space="preserve">
+    <value>E_1侧管口张开</value>
+  </data>
+  <data name="ERR_003A" xml:space="preserve">
+    <value>E_防水栓1空送错误</value>
+  </data>
+  <data name="ERR_003B" xml:space="preserve">
+    <value>E_防水栓管口1</value>
+  </data>
+  <data name="ERR_003C" xml:space="preserve">
+    <value>E_插入检测1传感器异常</value>
+  </data>
+  <data name="ERR_003D" xml:space="preserve">
+    <value>E_防水栓前后1传感器异常</value>
+  </data>
+  <data name="ERR_003E" xml:space="preserve">
+    <value>E_防水栓通过传感器异常1</value>
+  </data>
+  <data name="ERR_003F" xml:space="preserve">
+    <value>I_请拆卸敲击棒</value>
+  </data>
+  <data name="ERR_0040" xml:space="preserve">
+    <value>E_电池电压下降</value>
+  </data>
+  <data name="ERR_0041" xml:space="preserve">
+    <value>E_防水1传感器异常</value>
+  </data>
+  <data name="ERR_0042" xml:space="preserve">
+    <value>E_剥皮1记忆处理中</value>
+  </data>
+  <data name="ERR_0043" xml:space="preserve">
+    <value>E_剥皮2记忆处理中</value>
+  </data>
+  <data name="ERR_0044" xml:space="preserve">
+    <value>E_插入检测1传感器异常</value>
+  </data>
+  <data name="ERR_0045" xml:space="preserve">
+    <value>E_排出罩打开</value>
+  </data>
+  <data name="ERR_0046" xml:space="preserve">
+    <value>I_请交换电线导轨</value>
+  </data>
+  <data name="ERR_0047" xml:space="preserve">
+    <value>E_送线轮张开</value>
+  </data>
+  <data name="ERR_0048" xml:space="preserve">
+    <value>E_2侧管口张开</value>
+  </data>
+  <data name="ERR_0049" xml:space="preserve">
+    <value>E_防水栓2空送错误</value>
+  </data>
+  <data name="ERR_004A" xml:space="preserve">
+    <value>E_防水栓管口2</value>
+  </data>
+  <data name="ERR_004B" xml:space="preserve">
+    <value>E_插入检测2传感器异常</value>
+  </data>
+  <data name="ERR_004C" xml:space="preserve">
+    <value>E_防水栓前后2传感器异常</value>
+  </data>
+  <data name="ERR_004D" xml:space="preserve">
+    <value>E_防水栓通过传感器异常2</value>
+  </data>
+  <data name="ERR_004E" xml:space="preserve">
+    <value>I_不良品排出前停止</value>
+  </data>
+  <data name="ERR_004F" xml:space="preserve">
+    <value>I_请安装敲击棒</value>
+  </data>
+  <data name="ERR_0050" xml:space="preserve">
+    <value>E_请解除记忆开关</value>
+  </data>
+  <data name="ERR_0051" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0052" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0053" xml:space="preserve">
+    <value>E_No1下沉装置:原点恢复异常</value>
+  </data>
+  <data name="ERR_0054" xml:space="preserve">
+    <value>E_No2下沉装置:原点恢复异常</value>
+  </data>
+  <data name="ERR_0055" xml:space="preserve">
+    <value>E_压着高度自动设置1:原点恢复异常</value>
+  </data>
+  <data name="ERR_0056" xml:space="preserve">
+    <value>E_压着高度自动设置2:原点恢复异常</value>
+  </data>
+  <data name="ERR_0057" xml:space="preserve">
+    <value>E_No1下沉装置:伺服警告</value>
+  </data>
+  <data name="ERR_0058" xml:space="preserve">
+    <value>I_请排出记忆电线</value>
+  </data>
+  <data name="ERR_0059" xml:space="preserve">
+    <value>E_压着错误1(CFM)</value>
+  </data>
+  <data name="ERR_005A" xml:space="preserve">
+    <value>E_压着错误2(CFM)</value>
+  </data>
+  <data name="ERR_005B" xml:space="preserve">
+    <value>E_压着高度自动设置1:伺服警告</value>
+  </data>
+  <data name="ERR_005C" xml:space="preserve">
+    <value>E_压着高度自动设置2:伺服警告</value>
+  </data>
+  <data name="ERR_005D" xml:space="preserve">
+    <value>E_请将排出组件恢复原样</value>
+  </data>
+  <data name="ERR_005E" xml:space="preserve">
+    <value>E_外罩打开(旋转)</value>
+  </data>
+  <data name="ERR_005F" xml:space="preserve">
+    <value>E_外罩打开(搬送)</value>
+  </data>
+  <data name="ERR_0060" xml:space="preserve">
+    <value>E_无法识别压力管理装置</value>
+  </data>
+  <data name="ERR_0061" xml:space="preserve">
+    <value>E_压力管理的警告异常</value>
+  </data>
+  <data name="ERR_0062" xml:space="preserve">
+    <value>E_因变更电线前出长度,当前的剥皮1长度不正确,请修改设定值</value>
+  </data>
+  <data name="ERR_0063" xml:space="preserve">
+    <value>E_因变更电线前出长度,当前的半剥皮长度1不正确,请修改设定值</value>
+  </data>
+  <data name="ERR_0064" xml:space="preserve">
+    <value>E_因变更电线前出长度,当前的压着1位置不正确,请修改设定值</value>
+  </data>
+  <data name="ERR_0065" xml:space="preserve">
+    <value>E_因变更电线前出长度,当前的剥皮2长度不正确,请修改设定值</value>
+  </data>
+  <data name="ERR_0066" xml:space="preserve">
+    <value>E_因变更电线前出长度,当前的半剥皮长度2不正确,请修改设定值</value>
+  </data>
+  <data name="ERR_0067" xml:space="preserve">
+    <value>E_因变更电线前出长度,当前的压着2位置不正确,请修改设定值</value>
+  </data>
+  <data name="ERR_0068" xml:space="preserve">
+    <value>E_No2下沉装置:伺服警告</value>
+  </data>
+  <data name="ERR_0069" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006A" xml:space="preserve">
+    <value>E_请将压着机1恢复到原位置</value>
+  </data>
+  <data name="ERR_006B" xml:space="preserve">
+    <value>E_请将压着机2恢复到原位置</value>
+  </data>
+  <data name="ERR_006C" xml:space="preserve">
+    <value>E_请卸下压着机1的手柄</value>
+  </data>
+  <data name="ERR_006D" xml:space="preserve">
+    <value>E_请卸下压着机2的手柄</value>
+  </data>
+  <data name="ERR_006E" xml:space="preserve">
+    <value>E_No2查出前后位置(传感器)错误</value>
+  </data>
+  <data name="ERR_006F" xml:space="preserve">
+    <value>E_请将排出组件恢复原样</value>
+  </data>
+  <data name="ERR_0070" xml:space="preserve">
+    <value>I_原位置恢复中</value>
+  </data>
+  <data name="ERR_0071" xml:space="preserve">
+    <value>I_完成设定数量</value>
+  </data>
+  <data name="ERR_0072" xml:space="preserve">
+    <value>I_完成设定批次</value>
+  </data>
+  <data name="ERR_0073" xml:space="preserve">
+    <value>E_排出电线</value>
+  </data>
+  <data name="ERR_0074" xml:space="preserve">
+    <value>I_记忆电线</value>
+  </data>
+  <data name="ERR_0075" xml:space="preserve">
+    <value>E_压着机1原位置恢复中</value>
+  </data>
+  <data name="ERR_0076" xml:space="preserve">
+    <value>E_压着机2原位置恢复中</value>
+  </data>
+  <data name="ERR_0077" xml:space="preserve">
+    <value>I_请按开始键</value>
+  </data>
+  <data name="ERR_0078" xml:space="preserve">
+    <value>E_请变更1侧先端管口的位置</value>
+  </data>
+  <data name="ERR_0079" xml:space="preserve">
+    <value>I_请更换电线送线管</value>
+  </data>
+</root>

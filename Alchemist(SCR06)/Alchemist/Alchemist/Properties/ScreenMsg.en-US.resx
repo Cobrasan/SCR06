@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ERR_0000" xml:space="preserve">
+    <value>E_Battery low voltage error</value>
+  </data>
+  <data name="ERR_0001" xml:space="preserve">
+    <value>E_Emergency stop</value>
+  </data>
+  <data name="ERR_0002" xml:space="preserve">
+    <value>E_Cover open</value>
+  </data>
+  <data name="ERR_0003" xml:space="preserve">
+    <value>E_Feed: Servo alarm</value>
+  </data>
+  <data name="ERR_0004" xml:space="preserve">
+    <value>E_Pull Slide: Servo alarm</value>
+  </data>
+  <data name="ERR_0005" xml:space="preserve">
+    <value>E_Loose Slide: Servo Alarm</value>
+  </data>
+  <data name="ERR_0006" xml:space="preserve">
+    <value>E_ Loose Swing: Servo Alarm</value>
+  </data>
+  <data name="ERR_0007" xml:space="preserve">
+    <value>E_Cut Slide: Servo Alarm</value>
+  </data>
+  <data name="ERR_0008" xml:space="preserve">
+    <value>E_ Strip miss 1</value>
+  </data>
+  <data name="ERR_0009" xml:space="preserve">
+    <value>E_No wire</value>
+  </data>
+  <data name="ERR_000A" xml:space="preserve">
+    <value>E_Wire overload</value>
+  </data>
+  <data name="ERR_000B" xml:space="preserve">
+    <value>E_Wire joint detect</value>
+  </data>
+  <data name="ERR_000C" xml:space="preserve">
+    <value>E_Air pressure low</value>
+  </data>
+  <data name="ERR_000D" xml:space="preserve">
+    <value>E_Pre-feeder emergency stop</value>
+  </data>
+  <data name="ERR_000E" xml:space="preserve">
+    <value>E_ Pre-feeder power OFF</value>
+  </data>
+  <data name="ERR_000F" xml:space="preserve">
+    <value>I_Set lot complete</value>
+  </data>
+  <data name="ERR_0010" xml:space="preserve">
+    <value>I_Set quantity complete</value>
+  </data>
+  <data name="ERR_0011" xml:space="preserve">
+    <value>I_Eject unit full</value>
+  </data>
+  <data name="ERR_0012" xml:space="preserve">
+    <value>I_Joint eject check</value>
+  </data>
+  <data name="ERR_0013" xml:space="preserve">
+    <value>E_Strip 1 sensor error</value>
+  </data>
+  <data name="ERR_0014" xml:space="preserve">
+    <value>E_Wire sensor error </value>
+  </data>
+  <data name="ERR_0015" xml:space="preserve">
+    <value>E_Strip back end sensor error</value>
+  </data>
+  <data name="ERR_0016" xml:space="preserve">
+    <value>E_Strip cylinder error</value>
+  </data>
+  <data name="ERR_0017" xml:space="preserve">
+    <value>E_Feed: Origin return error</value>
+  </data>
+  <data name="ERR_0018" xml:space="preserve">
+    <value>E_Pull Slide: Origin return error</value>
+  </data>
+  <data name="ERR_0019" xml:space="preserve">
+    <value>E_Loose Slide: Origin return error</value>
+  </data>
+  <data name="ERR_001A" xml:space="preserve">
+    <value>E_ Loose Swing: Origin return error</value>
+  </data>
+  <data name="ERR_001B" xml:space="preserve">
+    <value>E_Cut Slide: Origin return error</value>
+  </data>
+  <data name="ERR_001C" xml:space="preserve">
+    <value>E_Set data is out of range.</value>
+  </data>
+  <data name="ERR_001D" xml:space="preserve">
+    <value>I_Eject wire</value>
+  </data>
+  <data name="ERR_001E" xml:space="preserve">
+    <value>I_Strip chip full</value>
+  </data>
+  <data name="ERR_001F" xml:space="preserve">
+    <value>I_Stop by wire joint advice</value>
+  </data>
+  <data name="ERR_0020" xml:space="preserve">
+    <value>E_Safety cover is open.</value>
+  </data>
+  <data name="ERR_0021" xml:space="preserve">
+    <value>E_Pre-feeder wire overload</value>
+  </data>
+  <data name="ERR_0022" xml:space="preserve">
+    <value>I_Reject wire eject</value>
+  </data>
+  <data name="ERR_0023" xml:space="preserve">
+    <value>I_Wire joint eject</value>
+  </data>
+  <data name="ERR_0024" xml:space="preserve">
+    <value>E_Origin error</value>
+  </data>
+  <data name="ERR_0025" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0026" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0027" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0028" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0029" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0030" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0031" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0032" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0033" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0034" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0035" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0036" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0037" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0038" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0039" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_003A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_003B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_003C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_003D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_003E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_003F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0040" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0041" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0042" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0043" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0044" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0045" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0046" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0047" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0048" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0049" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_004A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_004B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_004C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_004D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_004E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_004F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0050" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0051" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0052" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0053" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0054" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0055" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0056" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0057" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0058" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0059" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_005A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_005B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_005C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_005D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_005E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_005F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0060" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0061" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0062" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0063" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0064" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0065" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0066" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0067" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0068" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0069" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0070" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0072" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0073" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0074" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0075" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0076" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0077" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0078" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0079" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0100" xml:space="preserve">
+    <value>I_Origin search</value>
+  </data>
+  <data name="ERR_0101" xml:space="preserve">
+    <value>I_Return to Origin by Start switch</value>
+  </data>
+  <data name="ERR_0102" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0103" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0104" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0105" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0106" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0107" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0108" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0110" xml:space="preserve">
+    <value>E_Communication disconnected</value>
+  </data>
+  <data name="ERR_0111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0112" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0113" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SYS_0001" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SYS_0002" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="SYS_0003" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SYS_0004" xml:space="preserve">
+    <value>Multiple starts of this application is not available.</value>
+  </data>
+  <data name="SYS_0005" xml:space="preserve">
+    <value>This application cannot be opened from remote session.</value>
+  </data>
+  <data name="SYS_0006" xml:space="preserve">
+    <value>Machine description is different from previous memory allocation data.  Continue to start?</value>
+  </data>
+  <data name="SYS_0007" xml:space="preserve">
+    <value>Machine data is not default.  Install default data?</value>
+  </data>
+  <data name="SYS_0008" xml:space="preserve">
+    <value>No applicable work ID available.</value>
+  </data>
+  <data name="SYS_0009" xml:space="preserve">
+    <value>Address range is not correct.</value>
+  </data>
+  <data name="SYS_000A" xml:space="preserve">
+    <value>Data length is not correct.</value>
+  </data>
+  <data name="SYS_000B" xml:space="preserve">
+    <value>Value is not within appropriate range.</value>
+  </data>
+  <data name="SYS_000C" xml:space="preserve">
+    <value>Bank data is compensated with default value.</value>
+  </data>
+  <data name="SYS_000D" xml:space="preserve">
+    <value>Failed to access to system setting file.</value>
+  </data>
+  <data name="SYS_000E" xml:space="preserve">
+    <value>Failed to access to memory allocation data file.</value>
+  </data>
+  <data name="SYS_000F" xml:space="preserve">
+    <value>Failed to access to bank data file</value>
+  </data>
+  <data name="SYS_0010" xml:space="preserve">
+    <value>Failed to access to compensation file.</value>
+  </data>
+  <data name="SYS_0011" xml:space="preserve">
+    <value>Password does not match.</value>
+  </data>
+  <data name="SYS_0012" xml:space="preserve">
+    <value>Password and password (confirm) does not match.</value>
+  </data>
+  <data name="SYS_0013" xml:space="preserve">
+    <value>System setting complete.</value>
+  </data>
+  <data name="SYS_0014" xml:space="preserve">
+    <value>Bank data vale is out of range.</value>
+  </data>
+  <data name="SYS_0015" xml:space="preserve">
+    <value>No bank data available</value>
+  </data>
+  <data name="SYS_0016" xml:space="preserve">
+    <value>Enter value grater than {1} for {0}.</value>
+  </data>
+  <data name="SYS_0017" xml:space="preserve">
+    <value>Applicable WORKID cannot be found.</value>
+  </data>
+  <data name="SYS_0018" xml:space="preserve">
+    <value>No value is entered in {0}.</value>
+  </data>
+  <data name="SYS_0019" xml:space="preserve">
+    <value>Format for {0} is not correct.</value>
+  </data>
+  <data name="SYS_001A" xml:space="preserve">
+    <value>Enter value between {1} and {2} for {0}.</value>
+  </data>
+  <data name="SYS_001B" xml:space="preserve">
+    <value>Enter value grater than {1} and smaller than {2} for {0}.</value>
+  </data>
+  <data name="SYS_001C" xml:space="preserve">
+    <value>Operation cannot be started due to a lack synchronization with machine.  Connect to the machine and start operating.</value>
+  </data>
+  <data name="SYS_001D" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="SYS_001E" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="SYS_001F" xml:space="preserve">
+    <value>Version information</value>
+  </data>
+  <data name="SYS_0020" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="SYS_0021" xml:space="preserve">
+    <value>Change operator?</value>
+  </data>
+  <data name="SYS_0022" xml:space="preserve">
+    <value>Failed to delete operator information who is working.</value>
+  </data>
+  <data name="SYS_0023" xml:space="preserve">
+    <value>Cannot locate the operator entered.</value>
+  </data>
+  <data name="SYS_0024" xml:space="preserve">
+    <value>Failed to register operator information who is working.</value>
+  </data>
+  <data name="SYS_0025" xml:space="preserve">
+    <value>Failed to connect to the Server. Connecting to local server.</value>
+  </data>
+  <data name="SYS_0026" xml:space="preserve">
+    <value>No wire information registered.</value>
+  </data>
+  <data name="SYS_0027" xml:space="preserve">
+    <value>Cannot locate "EFU" entered.</value>
+  </data>
+  <data name="SYS_0028" xml:space="preserve">
+    <value>Wire length is too short to process with automatic machine.</value>
+  </data>
+  <data name="SYS_0029" xml:space="preserve">
+    <value>Different "EFU" from original reading</value>
+  </data>
+  <data name="SYS_002A" xml:space="preserve">
+    <value>Failed to register operation result.</value>
+  </data>
+  <data name="SYS_002B" xml:space="preserve">
+    <value>Failed to re-register suspended data.</value>
+  </data>
+  <data name="SYS_002C" xml:space="preserve">
+    <value>Failed to update operation result.</value>
+  </data>
+  <data name="SYS_002D" xml:space="preserve">
+    <value>Suspend?</value>
+  </data>
+  <data name="SYS_002E" xml:space="preserve">
+    <value>"EFU" entered has been already complete.</value>
+  </data>
+  <data name="SYS_002F" xml:space="preserve">
+    <value>Entered wire code is different.</value>
+  </data>
+  <data name="SYS_0030" xml:space="preserve">
+    <value>Failed to register previous operation result.</value>
+  </data>
+  <data name="SYS_0031" xml:space="preserve">
+    <value>Cannot start due to connection failure to local server.</value>
+  </data>
+  <data name="SYS_0032" xml:space="preserve">
+    <value>Trial operation.  Select the bank to use.</value>
+  </data>
+  <data name="SYS_0033" xml:space="preserve">
+    <value>"EFU" entered has not been complete.</value>
+  </data>
+  <data name="SYS_0034" xml:space="preserve">
+    <value>Record quality log?</value>
+  </data>
+  <data name="SYS_0035" xml:space="preserve">
+    <value>Failed to register quality record.</value>
+  </data>
+  <data name="SYS_0036" xml:space="preserve">
+    <value>Run?</value>
+  </data>
+  <data name="SYS_0037" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="SYS_0038" xml:space="preserve">
+    <value>Failed to register master.</value>
+  </data>
+  <data name="SYS_0039" xml:space="preserve">
+    <value>Failed to delete master.</value>
+  </data>
+  <data name="SYS_003A" xml:space="preserve">
+    <value>Bank registration is full.</value>
+  </data>
+  <data name="SYS_003B" xml:space="preserve">
+    <value>Delete bank?</value>
+  </data>
+  <data name="SYS_003C" xml:space="preserve">
+    <value>This bank is being used.</value>
+  </data>
+</root>

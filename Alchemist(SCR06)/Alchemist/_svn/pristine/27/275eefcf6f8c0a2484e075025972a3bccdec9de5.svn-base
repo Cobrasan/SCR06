@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ERR_0100" xml:space="preserve">
+    <value>I_Origin searching</value>
+  </data>
+  <data name="ERR_0101" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0102" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0103" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0104" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0105" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0106" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0107" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0108" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010A" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_010F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0110" xml:space="preserve">
+    <value>E_Machine disconnected.</value>
+  </data>
+  <data name="ERR_0111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0112" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0113" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SYS_0001" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SYS_0002" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="SYS_0003" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SYS_0004" xml:space="preserve">
+    <value>A multiple start of this application cannot be done. </value>
+  </data>
+  <data name="SYS_0005" xml:space="preserve">
+    <value>This application cannot be started from a remote session.</value>
+  </data>
+  <data name="SYS_0006" xml:space="preserve">
+    <value>It is different from the model name of the memory allocation data last time. 
+Do you continue the starting?</value>
+  </data>
+  <data name="SYS_0007" xml:space="preserve">
+    <value>Do you begin the synchronizing?</value>
+  </data>
+  <data name="SYS_0008" xml:space="preserve">
+    <value>Corresponding work ID doesn't exist. </value>
+  </data>
+  <data name="SYS_0009" xml:space="preserve">
+    <value>The address is out of the range.</value>
+  </data>
+  <data name="SYS_000A" xml:space="preserve">
+    <value>The data length is out of the range.</value>
+  </data>
+  <data name="SYS_000B" xml:space="preserve">
+    <value>The value is out of the range.</value>
+  </data>
+  <data name="SYS_000C" xml:space="preserve">
+    <value>Broken Bank Data</value>
+  </data>
+  <data name="SYS_000D" xml:space="preserve">
+    <value>The access to the system configuration file failed</value>
+  </data>
+  <data name="SYS_000E" xml:space="preserve">
+    <value>The access to the memory allocation file failed.</value>
+  </data>
+  <data name="SYS_000F" xml:space="preserve">
+    <value>The access to the bank data file failed.</value>
+  </data>
+  <data name="SYS_0010" xml:space="preserve">
+    <value>The access to the correction data file failed.</value>
+  </data>
+  <data name="SYS_0011" xml:space="preserve">
+    <value>Password incorrect</value>
+  </data>
+  <data name="SYS_0012" xml:space="preserve">
+    <value>Between "Password" and "Password(Confirm)" are different.</value>
+  </data>
+  <data name="SYS_0013" xml:space="preserve">
+    <value>Completed the system configuration.</value>
+  </data>
+  <data name="SYS_0014" xml:space="preserve">
+    <value>The bank data is out of the range</value>
+  </data>
+  <data name="SYS_0015" xml:space="preserve">
+    <value>No bank data.</value>
+  </data>
+  <data name="SYS_0016" xml:space="preserve">
+    <value>{0} must be inputted more than {1}</value>
+  </data>
+  <data name="SYS_0017" xml:space="preserve">
+    <value>Not find the corresponding work ID</value>
+  </data>
+  <data name="SYS_0018" xml:space="preserve">
+    <value>{0} must be inputted.</value>
+  </data>
+  <data name="SYS_0019" xml:space="preserve">
+    <value>The format of {0} is incorrect.</value>
+  </data>
+  <data name="SYS_001A" xml:space="preserve">
+    <value>{0} must be inputted in the range between {1} and {2}</value>
+  </data>
+  <data name="SYS_001B" xml:space="preserve">
+    <value>{0} must be inputted with more than {1}  and less than {2}</value>
+  </data>
+  <data name="SYS_001C" xml:space="preserve">
+    <value>Because of un-synchronized with the machine, the operations can NOT be allowed.
+Connect the machine before the operation.</value>
+  </data>
+  <data name="SYS_001D" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="SYS_001E" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="SYS_001F" xml:space="preserve">
+    <value>Version Information</value>
+  </data>
+  <data name="SYS_0020" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ERR_0000" xml:space="preserve">
+    <value>E_Upper of cuter &amp; stripper: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0001" xml:space="preserve">
+    <value>E_Lower of cutter &amp; stripper: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0002" xml:space="preserve">
+    <value>E_Ejector: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0003" xml:space="preserve">
+    <value>E_Feed: Servo Alarm</value>
+  </data>
+  <data name="ERR_0004" xml:space="preserve">
+    <value>E_No.1 Slider: Servo Alarm</value>
+  </data>
+  <data name="ERR_0005" xml:space="preserve">
+    <value>E_Swing: Servo Alarm</value>
+  </data>
+  <data name="ERR_0006" xml:space="preserve">
+    <value>E_Crimper1: Servo Alarm</value>
+  </data>
+  <data name="ERR_0007" xml:space="preserve">
+    <value>E_No.2 Slider: Servo Alarm</value>
+  </data>
+  <data name="ERR_0008" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0009" xml:space="preserve">
+    <value>E_Feed:  Abnormal origin search</value>
+  </data>
+  <data name="ERR_000A" xml:space="preserve">
+    <value>E_No.1 Slider: Abnormal origin search</value>
+  </data>
+  <data name="ERR_000B" xml:space="preserve">
+    <value>E_Swing: Abnormal origin search</value>
+  </data>
+  <data name="ERR_000C" xml:space="preserve">
+    <value>E_Crimper1: Abnormal origin search</value>
+  </data>
+  <data name="ERR_000D" xml:space="preserve">
+    <value>E_No.2 Slider: Abnormal origin search</value>
+  </data>
+  <data name="ERR_000E" xml:space="preserve">
+    <value>E_Transfer: Abnormal origin search</value>
+  </data>
+  <data name="ERR_000F" xml:space="preserve">
+    <value>E_Crimper2: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0010" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0011" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0012" xml:space="preserve">
+    <value>E_No wire</value>
+  </data>
+  <data name="ERR_0013" xml:space="preserve">
+    <value>E_Wire overload</value>
+  </data>
+  <data name="ERR_0014" xml:space="preserve">
+    <value>I_Wire joint</value>
+  </data>
+  <data name="ERR_0015" xml:space="preserve">
+    <value>I_Wire joint notice</value>
+  </data>
+  <data name="ERR_0016" xml:space="preserve">
+    <value>I_Wire joint operation [Standard]</value>
+  </data>
+  <data name="ERR_0017" xml:space="preserve">
+    <value>I_Wire joint operation</value>
+  </data>
+  <data name="ERR_0018" xml:space="preserve">
+    <value>E_Transfer: Servo Alarm</value>
+  </data>
+  <data name="ERR_0019" xml:space="preserve">
+    <value>E_Crimper2: Servo Alarm</value>
+  </data>
+  <data name="ERR_001A" xml:space="preserve">
+    <value>E_Upper of cuter &amp; stripper: Servo Alarm</value>
+  </data>
+  <data name="ERR_001B" xml:space="preserve">
+    <value>E_Lower of cutter &amp; stripper: Servo Alarm</value>
+  </data>
+  <data name="ERR_001C" xml:space="preserve">
+    <value>E_Ejector: Servo Alarm</value>
+  </data>
+  <data name="ERR_001D" xml:space="preserve">
+    <value>E_Emergency Stop</value>
+  </data>
+  <data name="ERR_001E" xml:space="preserve">
+    <value>E_Abnormal Belt Shooter</value>
+  </data>
+  <data name="ERR_001F" xml:space="preserve">
+    <value>E_Air pressure drop</value>
+  </data>
+  <data name="ERR_0020" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0021" xml:space="preserve">
+    <value>E_Strip miss 1</value>
+  </data>
+  <data name="ERR_0022" xml:space="preserve">
+    <value>E_Crimp miss 1 (Fiber sensor)</value>
+  </data>
+  <data name="ERR_0023" xml:space="preserve">
+    <value>E_Abnormal detect sensor of strip 1</value>
+  </data>
+  <data name="ERR_0024" xml:space="preserve">
+    <value>E_Abnormal detect sensor of crimp 1</value>
+  </data>
+  <data name="ERR_0025" xml:space="preserve">
+    <value>E_No terminal 1</value>
+  </data>
+  <data name="ERR_0026" xml:space="preserve">
+    <value>E_Terminal overload 1</value>
+  </data>
+  <data name="ERR_0027" xml:space="preserve">
+    <value>E_No seal 1</value>
+  </data>
+  <data name="ERR_0028" xml:space="preserve">
+    <value>E_Abnormal feed deflection</value>
+  </data>
+  <data name="ERR_0029" xml:space="preserve">
+    <value>E_Late crimp force judgment</value>
+  </data>
+  <data name="ERR_002A" xml:space="preserve">
+    <value>E_Supervisor mode</value>
+  </data>
+  <data name="ERR_002B" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002C" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002E" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_002F" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0030" xml:space="preserve">
+    <value>E_Strip miss 2</value>
+  </data>
+  <data name="ERR_0031" xml:space="preserve">
+    <value>E_Crimp miss 2 (Fiber sensor)</value>
+  </data>
+  <data name="ERR_0032" xml:space="preserve">
+    <value>E_Abnormal detect sensor of strip 2</value>
+  </data>
+  <data name="ERR_0033" xml:space="preserve">
+    <value>E_Abnormal detect sensor of crimp 2</value>
+  </data>
+  <data name="ERR_0034" xml:space="preserve">
+    <value>E_No terminal 2</value>
+  </data>
+  <data name="ERR_0035" xml:space="preserve">
+    <value>E_Terminal overload 2</value>
+  </data>
+  <data name="ERR_0036" xml:space="preserve">
+    <value>E_No seal 2</value>
+  </data>
+  <data name="ERR_0037" xml:space="preserve">
+    <value>E_Seal insert miss 2</value>
+  </data>
+  <data name="ERR_0038" xml:space="preserve">
+    <value>E_Seal insert miss 1</value>
+  </data>
+  <data name="ERR_0039" xml:space="preserve">
+    <value>E_No1 Chuck is opened</value>
+  </data>
+  <data name="ERR_003A" xml:space="preserve">
+    <value>E_Seal air-transfer miss 1</value>
+  </data>
+  <data name="ERR_003B" xml:space="preserve">
+    <value>E_Check seal 1</value>
+  </data>
+  <data name="ERR_003C" xml:space="preserve">
+    <value>E_Abnormal detect sensor of seal insert 1</value>
+  </data>
+  <data name="ERR_003D" xml:space="preserve">
+    <value>E_Abnormal detect sensor of seal position 1</value>
+  </data>
+  <data name="ERR_003E" xml:space="preserve">
+    <value>E_Abnormal detect sensor of seal pass 1</value>
+  </data>
+  <data name="ERR_003F" xml:space="preserve">
+    <value>I_Remove the strike sticks</value>
+  </data>
+  <data name="ERR_0040" xml:space="preserve">
+    <value>E_The voltage of the battery is low</value>
+  </data>
+  <data name="ERR_0041" xml:space="preserve">
+    <value>E_Abnormal sensor of seal 1</value>
+  </data>
+  <data name="ERR_0042" xml:space="preserve">
+    <value>E_Under strip 1 teaching</value>
+  </data>
+  <data name="ERR_0043" xml:space="preserve">
+    <value>E_Under strip 2 teaching</value>
+  </data>
+  <data name="ERR_0044" xml:space="preserve">
+    <value>E_Abnormal detect sensor of seal insert 1</value>
+  </data>
+  <data name="ERR_0045" xml:space="preserve">
+    <value>E_Ejector cover is opened</value>
+  </data>
+  <data name="ERR_0046" xml:space="preserve">
+    <value>I_Change the wire guide</value>
+  </data>
+  <data name="ERR_0047" xml:space="preserve">
+    <value>E_Feed roller is opened</value>
+  </data>
+  <data name="ERR_0048" xml:space="preserve">
+    <value>E_No2 Chuck is opened</value>
+  </data>
+  <data name="ERR_0049" xml:space="preserve">
+    <value>E_Seal air-transfer miss 2</value>
+  </data>
+  <data name="ERR_004A" xml:space="preserve">
+    <value>E_Check seal 2</value>
+  </data>
+  <data name="ERR_004B" xml:space="preserve">
+    <value>E_Abnormal detect sensor of seal insert 2</value>
+  </data>
+  <data name="ERR_004C" xml:space="preserve">
+    <value>E_Abnormal detect sensor of seal position 2</value>
+  </data>
+  <data name="ERR_004D" xml:space="preserve">
+    <value>E_Abnormal detect sensor of seal pass 2</value>
+  </data>
+  <data name="ERR_004E" xml:space="preserve">
+    <value>I_Stop before the waster eject</value>
+  </data>
+  <data name="ERR_004F" xml:space="preserve">
+    <value>I_Install the strike sticks</value>
+  </data>
+  <data name="ERR_0050" xml:space="preserve">
+    <value>E_Turn off the crimper inching switch</value>
+  </data>
+  <data name="ERR_0051" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0052" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_0053" xml:space="preserve">
+    <value>E_No.1 Sinker: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0054" xml:space="preserve">
+    <value>E_No.2 Sinker: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0055" xml:space="preserve">
+    <value>E_ACH1: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0056" xml:space="preserve">
+    <value>E_ACH2: Abnormal origin search</value>
+  </data>
+  <data name="ERR_0057" xml:space="preserve">
+    <value>E_No.1 Sinker: Servo Alarm</value>
+  </data>
+  <data name="ERR_0058" xml:space="preserve">
+    <value>I_Eject the teaching wire</value>
+  </data>
+  <data name="ERR_0059" xml:space="preserve">
+    <value>E_Crimp miss 1 (CFM)</value>
+  </data>
+  <data name="ERR_005A" xml:space="preserve">
+    <value>E_Crimp miss 2 (CFM)</value>
+  </data>
+  <data name="ERR_005B" xml:space="preserve">
+    <value>E_ACH1: Servo Alarm</value>
+  </data>
+  <data name="ERR_005C" xml:space="preserve">
+    <value>E_ACH2: Servo Alarm</value>
+  </data>
+  <data name="ERR_005D" xml:space="preserve">
+    <value>E_Turn the ejector back</value>
+  </data>
+  <data name="ERR_005E" xml:space="preserve">
+    <value>E_The cover (Swing) is opened</value>
+  </data>
+  <data name="ERR_005F" xml:space="preserve">
+    <value>E_The cover (Transfer) is opened</value>
+  </data>
+  <data name="ERR_0060" xml:space="preserve">
+    <value>E_PFM is unrecognized</value>
+  </data>
+  <data name="ERR_0061" xml:space="preserve">
+    <value>E_PFM is unrecognized</value>
+  </data>
+  <data name="ERR_0062" xml:space="preserve">
+    <value>E_Current strip length 1 is NOT matched because of the edge length change.</value>
+  </data>
+  <data name="ERR_0063" xml:space="preserve">
+    <value>E_Current semi-strip length 1 is NOT matched because of the edge length change.</value>
+  </data>
+  <data name="ERR_0064" xml:space="preserve">
+    <value>E_Current crimp position 1 is NOT matched because of the edge length change.</value>
+  </data>
+  <data name="ERR_0065" xml:space="preserve">
+    <value>E_Current strip length 2 is NOT matched because of the edge length change.</value>
+  </data>
+  <data name="ERR_0066" xml:space="preserve">
+    <value>E_Current semi-strip length 2 is NOT matched because of the edge length change.</value>
+  </data>
+  <data name="ERR_0067" xml:space="preserve">
+    <value>E_Current crimp position 2 is NOT matched because of the edge length change.</value>
+  </data>
+  <data name="ERR_0068" xml:space="preserve">
+    <value>E_No.2 Sinker: Servo Alarm</value>
+  </data>
+  <data name="ERR_0069" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_006A" xml:space="preserve">
+    <value>E_Take back to the origin position of Crimper 1</value>
+  </data>
+  <data name="ERR_006B" xml:space="preserve">
+    <value>E_Take back to the origin position of Crimper 2</value>
+  </data>
+  <data name="ERR_006C" xml:space="preserve">
+    <value>E_Remove the handle of Crimper 1</value>
+  </data>
+  <data name="ERR_006D" xml:space="preserve">
+    <value>E_Remove the handle of Crimper 2</value>
+  </data>
+  <data name="ERR_006E" xml:space="preserve">
+    <value>E_No2 Slide position of the detection (sencor) is abnormal</value>
+  </data>
+  <data name="ERR_006F" xml:space="preserve">
+    <value>E_Turn the ejector back</value>
+  </data>
+  <data name="ERR_0070" xml:space="preserve">
+    <value>I_Origin searching</value>
+  </data>
+  <data name="ERR_0071" xml:space="preserve">
+    <value>I_QTY Full</value>
+  </data>
+  <data name="ERR_0072" xml:space="preserve">
+    <value>I_Lot Full</value>
+  </data>
+  <data name="ERR_0073" xml:space="preserve">
+    <value>E_The wire will be ejected</value>
+  </data>
+  <data name="ERR_0074" xml:space="preserve">
+    <value>I_It will teach a wire</value>
+  </data>
+  <data name="ERR_0075" xml:space="preserve">
+    <value>E_Crimper 1: Origin searching</value>
+  </data>
+  <data name="ERR_0076" xml:space="preserve">
+    <value>E_Crimper 2: Origin searching</value>
+  </data>
+  <data name="ERR_0077" xml:space="preserve">
+    <value>I_Push start switch</value>
+  </data>
+  <data name="ERR_0078" xml:space="preserve">
+    <value>E_Change the position of No1 nose</value>
+  </data>
+  <data name="ERR_0079" xml:space="preserve">
+    <value>I_Change the tube of wire feed</value>
+  </data>
+</root>

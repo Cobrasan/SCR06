@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system>
+  <!-- 通信設定 -->
+  <communication comport="COM1" borate="19200" databit="8" stopbit="2" parity="odd" flow="none" />
+  <!-- ロケール設定 -->
+  <locale culture="ja-JP" />
+  <!-- パスワード -->
+  <password value="" />
+  <!-- 自動機操作 -->
+  <machineoperation type="both" />
+  <!-- 機械ID -->
+  <machineid value="" />
+</system>

@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnSetting.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="radioButtonMain_PC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="radioButtonMain_PC.Text" xml:space="preserve">
+    <value>Machine &amp;&amp; PC</value>
+  </data>
+  <data name="radioButtonMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="radioButtonMain.Text" xml:space="preserve">
+    <value>Machine Only</value>
+  </data>
+  <data name="groupBoxATMachine_operation.Text" xml:space="preserve">
+    <value>Machine Ope.</value>
+  </data>
+  <data name="labelCHECK.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="groupPASSWORD.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblCOMPORT.Text" xml:space="preserve">
+    <value>Com port</value>
+  </data>
+  <data name="lblflow_control.Text" xml:space="preserve">
+    <value>Flow Control</value>
+  </data>
+  <data name="lblPARITY.Text" xml:space="preserve">
+    <value>Parity</value>
+  </data>
+  <data name="lblSTOPBIT.Text" xml:space="preserve">
+    <value>StopBit</value>
+  </data>
+  <data name="lblDATABIT.Text" xml:space="preserve">
+    <value>DataBit</value>
+  </data>
+  <data name="lblBORATE.Text" xml:space="preserve">
+    <value>Borate</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Comm. Config</value>
+  </data>
+  <data name="radioCHINESE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 20</value>
+  </data>
+  <data name="radioCHINESE.Text" xml:space="preserve">
+    <value>Chainese(Simplified Chinese)</value>
+  </data>
+  <data name="systemtabPage.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="systemOperationtabPage.Text" xml:space="preserve">
+    <value>System Operation</value>
+  </data>
+  <data name="btnSEAL_CHECK2_SENSOR_LOCK.Text" xml:space="preserve">
+    <value>Seal Exists2</value>
+  </data>
+  <data name="btnSEAL_INSERT2_SENSOR_LOCKMISS.Text" xml:space="preserve">
+    <value>Seal Misinsert2</value>
+  </data>
+  <data name="btnSEAL_CHECK1_SENSOR_LOCK.Text" xml:space="preserve">
+    <value>Seal Exists1</value>
+  </data>
+  <data name="btnSEAL_INSERT1_SENSOR_LOCKMISS.Text" xml:space="preserve">
+    <value>Seal Misinsert1</value>
+  </data>
+  <data name="btnTERM_OVL2_SENSOR_LOCK.Text" xml:space="preserve">
+    <value>Term. Overload 2</value>
+  </data>
+  <data name="btnTERM_OVL1_SENSOR_LOCK.Text" xml:space="preserve">
+    <value>Term. Overload 1</value>
+  </data>
+  <data name="btnTERM2_EXISTS_SENSOR_LOCK.Text" xml:space="preserve">
+    <value>Term. Exists2</value>
+  </data>
+  <data name="btnCRIMPMISS2.Text" xml:space="preserve">
+    <value>Miscrimp2</value>
+  </data>
+  <data name="btnTERM1_EXISTS_SENSOR_LOCK.Text" xml:space="preserve">
+    <value>Term. Exists1</value>
+  </data>
+  <data name="btnCRIMPMISS1.Text" xml:space="preserve">
+    <value>Miscrimp1</value>
+  </data>
+  <data name="btnSTRIPMISS2.Text" xml:space="preserve">
+    <value>Misstrip 2</value>
+  </data>
+  <data name="btnSTRIPMISS1.Text" xml:space="preserve">
+    <value>Misstrip 1</value>
+  </data>
+  <data name="sensortabPage.Text" xml:space="preserve">
+    <value>Detector</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Range.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Unit.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Base Machine</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn31.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn32.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn61.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Wire Feed</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn33.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn34.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Swing</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn35.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn36.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn62.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn37.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn38.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn63.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>No1 Slider</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn39.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn40.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn64.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>No2 Slider</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn41.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn42.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn65.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Strip</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn43.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn44.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn66.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Crimp</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn45.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn46.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn67.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Seal</value>
+  </data>
+  <data name="correctiontabPage.Text" xml:space="preserve">
+    <value>Correction</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn47.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn48.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn68.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage10.Text" xml:space="preserve">
+    <value>Side 1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn19.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn49.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn50.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn69.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage11.Text" xml:space="preserve">
+    <value>Side 2</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn22.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn51.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn52.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn70.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage12.Text" xml:space="preserve">
+    <value>Eject</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn24.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn53.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn54.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn71.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage13.Text" xml:space="preserve">
+    <value>Crimp 1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn26.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn55.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn56.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn72.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage14.Text" xml:space="preserve">
+    <value>Crimp 2</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn28.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn57.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn58.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn73.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage15.Text" xml:space="preserve">
+    <value>Seal 1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn30.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn59.HeaderText" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn60.HeaderText" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn74.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="tabPage16.Text" xml:space="preserve">
+    <value>Seal 2</value>
+  </data>
+  <data name="timingtabPage.Text" xml:space="preserve">
+    <value>Timing</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>System Comfiguration</value>
+  </data>
+</root>

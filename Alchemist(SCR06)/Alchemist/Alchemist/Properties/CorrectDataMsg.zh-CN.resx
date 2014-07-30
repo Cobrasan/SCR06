@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CORR_0101" xml:space="preserve">
+    <value>无端子运转</value>
+  </data>
+  <data name="CORR_0102" xml:space="preserve">
+    <value>皮带传送收线架动作长度</value>
+  </data>
+  <data name="CORR_0103" xml:space="preserve">
+    <value>皮带传送收线架等待时间</value>
+  </data>
+  <data name="CORR_0104" xml:space="preserve">
+    <value>传送端子时间1</value>
+  </data>
+  <data name="CORR_0105" xml:space="preserve">
+    <value>传送端子时间2</value>
+  </data>
+  <data name="CORR_0106" xml:space="preserve">
+    <value>空转时间</value>
+  </data>
+  <data name="CORR_0107" xml:space="preserve">
+    <value>端子边角切割1 次数</value>
+  </data>
+  <data name="CORR_0108" xml:space="preserve">
+    <value>端子边角切割2 次数</value>
+  </data>
+  <data name="CORR_0109" xml:space="preserve">
+    <value>压着检测1 光纤/CFM</value>
+  </data>
+  <data name="CORR_010A" xml:space="preserve">
+    <value>压着检测2 光纤/CFM</value>
+  </data>
+  <data name="CORR_010B" xml:space="preserve">
+    <value>判定结束后压着1 无效/有效</value>
+  </data>
+  <data name="CORR_010C" xml:space="preserve">
+    <value>判定结束后压着2 无效/有效</value>
+  </data>
+  <data name="CORR_010D" xml:space="preserve">
+    <value>剥皮1检测水准</value>
+  </data>
+  <data name="CORR_010E" xml:space="preserve">
+    <value>剥皮1记忆次数</value>
+  </data>
+  <data name="CORR_010F" xml:space="preserve">
+    <value>剥皮2检测水准</value>
+  </data>
+  <data name="CORR_0110" xml:space="preserve">
+    <value>剥皮2记忆次数</value>
+  </data>
+  <data name="CORR_0111" xml:space="preserve">
+    <value>自动记忆送线 有效/无效</value>
+  </data>
+  <data name="CORR_0112" xml:space="preserve">
+    <value>记忆电线 不良品/合格品</value>
+  </data>
+  <data name="CORR_0113" xml:space="preserve">
+    <value>自动剥皮记忆 有效/无效</value>
+  </data>
+  <data name="CORR_0114" xml:space="preserve">
+    <value>送线方式 CLOSE/OPEN</value>
+  </data>
+  <data name="CORR_0115" xml:space="preserve">
+    <value>剥皮检测方式 传导/LAMS</value>
+  </data>
+  <data name="CORR_0116" xml:space="preserve">
+    <value>自动设置压着高度装置 有无</value>
+  </data>
+  <data name="CORR_0117" xml:space="preserve">
+    <value>LAMS功能选择 不防水/防水</value>
+  </data>
+  <data name="CORR_0118" xml:space="preserve">
+    <value>总计数归零 有效/无效</value>
+  </data>
+  <data name="CORR_0119" xml:space="preserve">
+    <value>压着计数归零 有效/无效</value>
+  </data>
+  <data name="CORR_011A" xml:space="preserve">
+    <value>计数类型 类型1/类型2</value>
+  </data>
+  <data name="CORR_0201" xml:space="preserve">
+    <value>不良电线长度</value>
+  </data>
+  <data name="CORR_0202" xml:space="preserve">
+    <value>测试模式电线长度</value>
+  </data>
+  <data name="CORR_0203" xml:space="preserve">
+    <value>采样模式电线长度</value>
+  </data>
+  <data name="CORR_0204" xml:space="preserve">
+    <value>轧制线长度[mm]</value>
+  </data>
+  <data name="CORR_0205" xml:space="preserve">
+    <value>电线接头送出长度</value>
+  </data>
+  <data name="CORR_0206" xml:space="preserve">
+    <value>电线长度补正值[+-mm]</value>
+  </data>
+  <data name="CORR_0207" xml:space="preserve">
+    <value>送气动作长度</value>
+  </data>
+  <data name="CORR_0208" xml:space="preserve">
+    <value>剥皮错误排出长度</value>
+  </data>
+  <data name="CORR_0209" xml:space="preserve">
+    <value>测试送线长度</value>
+  </data>
+  <data name="CORR_020A" xml:space="preserve">
+    <value>送线返回长度</value>
+  </data>
+  <data name="CORR_020B" xml:space="preserve">
+    <value>过载电线排出长度</value>
+  </data>
+  <data name="CORR_020C" xml:space="preserve">
+    <value>剥皮送线补正长度</value>
+  </data>
+  <data name="CORR_0301" xml:space="preserve">
+    <value>No.1旋转 原位置</value>
+  </data>
+  <data name="CORR_0302" xml:space="preserve">
+    <value>No.1旋转 剥皮位置</value>
+  </data>
+  <data name="CORR_0303" xml:space="preserve">
+    <value>No.1旋转 剥皮检测位置</value>
+  </data>
+  <data name="CORR_0304" xml:space="preserve">
+    <value>No.1旋转 压着位置</value>
+  </data>
+  <data name="CORR_0305" xml:space="preserve">
+    <value>No.1旋转 压着退避位置</value>
+  </data>
+  <data name="CORR_0306" xml:space="preserve">
+    <value>No.1旋转 压着检测</value>
+  </data>
+  <data name="CORR_0307" xml:space="preserve">
+    <value>No.1旋转 速度</value>
+  </data>
+  <data name="CORR_0308" xml:space="preserve">
+    <value>No.1旋转 加速度</value>
+  </data>
+  <data name="CORR_0401" xml:space="preserve">
+    <value>No.2搬送 原位置</value>
+  </data>
+  <data name="CORR_0402" xml:space="preserve">
+    <value>No.2搬送 剥皮位置</value>
+  </data>
+  <data name="CORR_0403" xml:space="preserve">
+    <value>No.2搬送 剥皮检测位置</value>
+  </data>
+  <data name="CORR_0404" xml:space="preserve">
+    <value>No.2搬送 压着位置</value>
+  </data>
+  <data name="CORR_0405" xml:space="preserve">
+    <value>No.2搬送 压着退避位置</value>
+  </data>
+  <data name="CORR_0406" xml:space="preserve">
+    <value>No.2搬送 速度</value>
+  </data>
+  <data name="CORR_0407" xml:space="preserve">
+    <value>No.2搬送 加速度</value>
+  </data>
+  <data name="CORR_0408" xml:space="preserve">
+    <value>No.2搬送 速度切换长度</value>
+  </data>
+  <data name="CORR_0409" xml:space="preserve">
+    <value>No.2搬送 速度(速度切换)</value>
+  </data>
+  <data name="CORR_040A" xml:space="preserve">
+    <value>No.2搬送 加速度(速度切换)</value>
+  </data>
+  <data name="CORR_0501" xml:space="preserve">
+    <value>No1前后 原位置</value>
+  </data>
+  <data name="CORR_0502" xml:space="preserve">
+    <value>No1前后 压着偏置</value>
+  </data>
+  <data name="CORR_0503" xml:space="preserve">
+    <value>No1前后 速度</value>
+  </data>
+  <data name="CORR_0504" xml:space="preserve">
+    <value>No1前后 加速度</value>
+  </data>
+  <data name="CORR_0605" xml:space="preserve">
+    <value>No2前后 原位置 </value>
+  </data>
+  <data name="CORR_0606" xml:space="preserve">
+    <value>No2前后 压着偏置</value>
+  </data>
+  <data name="CORR_0607" xml:space="preserve">
+    <value>No2前后 换挟位置</value>
+  </data>
+  <data name="CORR_0608" xml:space="preserve">
+    <value>No2前后 先端换挟位置</value>
+  </data>
+  <data name="CORR_0609" xml:space="preserve">
+    <value>No2前后 速度</value>
+  </data>
+  <data name="CORR_060A" xml:space="preserve">
+    <value>No2前后 加速度</value>
+  </data>
+  <data name="CORR_0701" xml:space="preserve">
+    <value>剥皮1 偏置</value>
+  </data>
+  <data name="CORR_0702" xml:space="preserve">
+    <value>剥皮1 检测偏置</value>
+  </data>
+  <data name="CORR_0703" xml:space="preserve">
+    <value>剥皮2 偏置</value>
+  </data>
+  <data name="CORR_0704" xml:space="preserve">
+    <value>剥皮2 检测偏置</value>
+  </data>
+  <data name="CORR_0705" xml:space="preserve">
+    <value>切割原位置</value>
+  </data>
+  <data name="CORR_0706" xml:space="preserve">
+    <value>切割位置</value>
+  </data>
+  <data name="CORR_0707" xml:space="preserve">
+    <value>切入原位置</value>
+  </data>
+  <data name="CORR_0708" xml:space="preserve">
+    <value>电线导轨位置</value>
+  </data>
+  <data name="CORR_0709" xml:space="preserve">
+    <value>切割/电线导轨 速度</value>
+  </data>
+  <data name="CORR_070A" xml:space="preserve">
+    <value>切割/电线导轨 加速度</value>
+  </data>
+  <data name="CORR_070B" xml:space="preserve">
+    <value>剥皮速度</value>
+  </data>
+  <data name="CORR_070C" xml:space="preserve">
+    <value>剥皮加速度</value>
+  </data>
+  <data name="CORR_0801" xml:space="preserve">
+    <value>压着机1 原位置传感器补正</value>
+  </data>
+  <data name="CORR_0802" xml:space="preserve">
+    <value>压着机2 原位置传感器补正</value>
+  </data>
+  <data name="CORR_0803" xml:space="preserve">
+    <value>压着机1 速度</value>
+  </data>
+  <data name="CORR_0804" xml:space="preserve">
+    <value>压着机1 加速度</value>
+  </data>
+  <data name="CORR_0805" xml:space="preserve">
+    <value>压着机2 速度</value>
+  </data>
+  <data name="CORR_0806" xml:space="preserve">
+    <value>压着机2 加速度</value>
+  </data>
+  <data name="CORR_0901" xml:space="preserve">
+    <value>No1旋转 防水栓插入位置</value>
+  </data>
+  <data name="CORR_0902" xml:space="preserve">
+    <value>No1旋转 防水栓插入检测位置</value>
+  </data>
+  <data name="CORR_0903" xml:space="preserve">
+    <value>No1前后 防水栓插入开始位置</value>
+  </data>
+  <data name="CORR_0904" xml:space="preserve">
+    <value>No1前后 防水栓插入偏置</value>
+  </data>
+  <data name="CORR_0905" xml:space="preserve">
+    <value>No2搬送 防水栓插入位置</value>
+  </data>
+  <data name="CORR_0906" xml:space="preserve">
+    <value>No2搬送 防水栓插入检测位置</value>
+  </data>
+  <data name="CORR_0907" xml:space="preserve">
+    <value>No2前后 防水栓插入开始位置</value>
+  </data>
+  <data name="CORR_0908" xml:space="preserve">
+    <value>No2前后 防水栓插入偏置</value>
+  </data>
+</root>
