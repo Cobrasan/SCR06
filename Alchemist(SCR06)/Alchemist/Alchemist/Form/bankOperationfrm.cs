@@ -359,7 +359,7 @@ namespace Alchemist
         /// </summary>
         private int bankNoIndex(string bankno)
         {           
-            for (int i = 0; i < 101; i++)
+            for (int i = 0; i < SystemConstants.BANK_MAX+2; i++)
             {
                 if (bankOperationView.Rows[i].Cells[0].Value.ToString() == bankno)
                     return i;

@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Resources\mainIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Alchemist" version="12.1.2.2" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Alchemist" version="12.1.2.3" language="neutral" processorArchitecture="msil" />
     <commandLine file="Alchemist.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -49,25 +49,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alchemist.exe" size="40573440">
-      <assemblyIdentity name="Alchemist" version="12.1.2.2" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Alchemist" version="12.1.2.3" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>qFuEw4FmmPke34hyLfmmNmT6xdE=</dsig:DigestValue>
+        <dsig:DigestValue>iOo4oNkHGahVLyA+wF9Ttzxz/mU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja-JP\Alchemist.resources.dll" size="145920">
-      <assemblyIdentity name="Alchemist.resources" version="12.1.2.2" language="ja-JP" processorArchitecture="msil" />
+      <assemblyIdentity name="Alchemist.resources" version="12.1.2.3" language="ja-JP" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aM2bBApYmX1cj3uMDODKjLkmWgU=</dsig:DigestValue>
+        <dsig:DigestValue>2cQIA89/+7kLthZEjzb2RfcYZmQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
