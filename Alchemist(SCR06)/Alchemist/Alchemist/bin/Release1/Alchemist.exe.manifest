@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Resources\mainIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Alchemist" version="12.1.2.3" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Alchemist" version="12.1.2.4" language="neutral" processorArchitecture="msil" />
     <commandLine file="Alchemist.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -49,25 +49,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alchemist.exe" size="40573440">
-      <assemblyIdentity name="Alchemist" version="12.1.2.3" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Alchemist" version="12.1.2.4" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>iOo4oNkHGahVLyA+wF9Ttzxz/mU=</dsig:DigestValue>
+        <dsig:DigestValue>rkljVhNdjtJ/Wjs62+r/xYumcHo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja-JP\Alchemist.resources.dll" size="145920">
-      <assemblyIdentity name="Alchemist.resources" version="12.1.2.3" language="ja-JP" processorArchitecture="msil" />
+      <assemblyIdentity name="Alchemist.resources" version="12.1.2.4" language="ja-JP" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2cQIA89/+7kLthZEjzb2RfcYZmQ=</dsig:DigestValue>
+        <dsig:DigestValue>mNWs95bqrro6zAzYjlUG4XbqAnE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -104,13 +104,13 @@
       <dsig:DigestValue>3qOyE6S5Pd9Ydmcnk08XyRUfN/Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="File\memalloc.xml" size="80429" writeableType="applicationData">
+  <file name="File\memalloc.xml" size="78266" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>mjfZE9S+ffOIxFqKAQw8LTa2GsY=</dsig:DigestValue>
+      <dsig:DigestValue>7iBMwwUEtUH8yOFnMCEGAEWZbPg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="File\system.xml" size="600" writeableType="applicationData">

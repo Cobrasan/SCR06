@@ -21,3 +21,10 @@ C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alche
 C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.pdb
 C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.csprojResolveAssemblyReference.cache
 C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.csproj.GenerateResource.Cache
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\bin\Release\SCR06SieldWireImagePanelControl.dll
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\bin\Release\SCR06SieldWireImagePanelControl.pdb
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.csprojResolveAssemblyReference.cache
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.SieldWireImagePanel.resources
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.csproj.GenerateResource.Cache
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.dll
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomControl\SCR06SieldWireImageControl\obj\Release\SCR06SieldWireImagePanelControl.pdb

@@ -229,7 +229,7 @@
     <value>E_原点異常</value>
   </data>
   <data name="ERR_0025" xml:space="preserve">
-    <value />
+    <value>E_ハードル戻り異常</value>
   </data>
   <data name="ERR_0026" xml:space="preserve">
     <value />

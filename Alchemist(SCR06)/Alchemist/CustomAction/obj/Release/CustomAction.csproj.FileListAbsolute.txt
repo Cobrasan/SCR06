@@ -13,3 +13,8 @@ C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alche
 C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomAction\obj\Release\CustomAction.dll
 C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)-Old\Alchemist\CustomAction\obj\Release\CustomAction.pdb
 C:\Users\097014\Documents\Visual Studio 2010\Projects\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.csprojResolveAssemblyReference.cache
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomAction\bin\Release\CustomAction.dll
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomAction\bin\Release\CustomAction.pdb
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.csprojResolveAssemblyReference.cache
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.dll
+C:\Users\097014\Documents\GitHub\SCR06\Alchemist(SCR06)\Alchemist\CustomAction\obj\Release\CustomAction.pdb
